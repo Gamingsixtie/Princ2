@@ -1,0 +1,842 @@
+[
+  {
+    "id": 361,
+    "vraag": "Welke uitspraak beschrijft de projectcontext?",
+    "opties": {
+      "A": "Het moet worden begrepen door stakeholders zodat de principes op de juiste manier worden toegepast",
+      "B": "Het legt uit hoe elk aspect van projectmanagement moet worden toegepast",
+      "C": "Het begeleidt de progressie van pre-projectactiviteiten",
+      "D": "Het verzekert begrip van de behoeften van stakeholders"
+    },
+    "correct": "A",
+    "uitleg": "A. Correct - projectcontext beinvloedt hoe principes worden toegepast. B. Onjuist - dit beschrijft practices. C. Onjuist - dit beschrijft processen. D. Onjuist - dit beschrijft mensen.",
+    "thema": "Concepten",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 362,
+    "vraag": "Welk niveau van plan voorziet de Business Case van informatie voor levensvatbaarheid?",
+    "opties": {
+      "A": "Faseplan",
+      "B": "Projectplan",
+      "C": "Uitzonderingsplan",
+      "D": "Teamplan"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - faseplan is te gedetailleerd. B. Correct - projectplan geeft totale kosten en tijdlijn. C. Onjuist - uitzonderingsplannen zijn voor overschrijdingen. D. Onjuist - teamplannen zijn optioneel.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 363,
+    "vraag": "Wat is een kenmerk van een project?",
+    "opties": {
+      "A": "Het levert operationele verbeteringen",
+      "B": "Het is tijdelijk van aard",
+      "C": "Het wordt beheerd door lijnmanagement",
+      "D": "Het heeft geen eindige levensduur"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - dit is business as usual. B. Correct - een project is tijdelijk met begin en einde. C. Onjuist - projecten hebben aparte structuur. D. Onjuist - projecten hebben eindige levensduur.",
+    "thema": "Concepten",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 364,
+    "vraag": "Welk principe zorgt dat een project alleen start als het gerechtvaardigd is?",
+    "opties": {
+      "A": "Manage by exception",
+      "B": "Leren van ervaringen",
+      "C": "Voortdurende zakelijke rechtvaardiging",
+      "D": "Gedefinieerde rollen"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - gaat over toleranties. B. Onjuist - gaat over kennisdeling. C. Correct - vereist zakelijke rechtvaardiging. D. Onjuist - gaat over projectorganisatie.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 365,
+    "vraag": "Wie managet het project dagelijks namens de Stuurgroep?",
+    "opties": {
+      "A": "Opdrachtgever",
+      "B": "Projectmanager",
+      "C": "Teammanager",
+      "D": "Projectborging"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - geeft sturing. B. Correct - PM managet dagelijks. C. Onjuist - managet teams. D. Onjuist - adviseert.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 366,
+    "vraag": "Welk managementproduct bevat de rechtvaardiging voor het project?",
+    "opties": {
+      "A": "Projectvoorstel",
+      "B": "Business Case",
+      "C": "PID",
+      "D": "Benefitsmanagementaanpak"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - triggert initiatiefase. B. Correct - documenteert rechtvaardiging. C. Onjuist - bevat BC maar is breder. D. Onjuist - beschrijft benefitsrealisatie.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 367,
+    "vraag": "Wanneer wordt de PID voor het eerst gemaakt?",
+    "opties": {
+      "A": "Opstarten",
+      "B": "Initiëren",
+      "C": "Managen Faseovergang",
+      "D": "Afsluiten"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - Projectvoorstel wordt gemaakt. B. Correct - PID wordt in Initiëren gemaakt. C. Onjuist - PID wordt bijgewerkt. D. Onjuist - PID wordt gearchiveerd.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 368,
+    "vraag": "Wat is het doel van het thema Kwaliteit?",
+    "opties": {
+      "A": "Risicos identificeren en beheren",
+      "B": "Kwaliteit definiëren en controleren",
+      "C": "Voortgang monitoren",
+      "D": "Projectorganisatie vaststellen"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - thema Risico. B. Correct - Kwaliteit definieert en controleert. C. Onjuist - thema Voortgang. D. Onjuist - thema Organisatie.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 369,
+    "vraag": "Welke rol vertegenwoordigt gebruikersbelangen in de Stuurgroep?",
+    "opties": {
+      "A": "Opdrachtgever",
+      "B": "Senior Gebruiker",
+      "C": "Senior Leverancier",
+      "D": "Projectmanager"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - vertegenwoordigt business. B. Correct - vertegenwoordigt gebruikers. C. Onjuist - vertegenwoordigt leveranciers. D. Onjuist - zit niet in Stuurgroep.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 370,
+    "vraag": "Wat is een uitgangspunt (assumption)?",
+    "opties": {
+      "A": "Een onzekere gebeurtenis",
+      "B": "Een factor als waar aangenomen zonder bewijs",
+      "C": "Een beperking opgelegd",
+      "D": "Een probleem"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - beschrijft risico. B. Correct - als waar aangenomen voor planning. C. Onjuist - beschrijft constraint. D. Onjuist - beschrijft issue.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 371,
+    "vraag": "Welk proces autoriseert de eerste leveringsfase?",
+    "opties": {
+      "A": "Opstarten",
+      "B": "Initiëren",
+      "C": "Sturen van een Project",
+      "D": "Managen Faseovergang"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - triggert initiatiefase. B. Onjuist - bereidt voor. C. Correct - Stuurgroep autoriseert via dit proces. D. Onjuist - bereidt volgende fase voor.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 372,
+    "vraag": "Wat beschrijft de productbeschrijving?",
+    "opties": {
+      "A": "Hoe het product wordt gemaakt",
+      "B": "Wie het product maakt",
+      "C": "Doel, samenstelling en kwaliteitscriteria",
+      "D": "Wanneer het wordt opgeleverd"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - staat in plan. B. Onjuist - bij toewijzing. C. Correct - definieert het product en criteria. D. Onjuist - staat in plan.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 373,
+    "vraag": "Welk type issue is een verzoek om wijziging in de baseline?",
+    "opties": {
+      "A": "Afwijking",
+      "B": "Wijzigingsverzoek",
+      "C": "Probleem/zorg",
+      "D": "Risico"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - buiten tolerantie. B. Correct - voorstel om baseline te wijzigen. C. Onjuist - vereist aandacht geen wijziging. D. Onjuist - toekomstige gebeurtenis.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 374,
+    "vraag": "Wat is de minimale structuur voor de Stuurgroep?",
+    "opties": {
+      "A": "Opdrachtgever, Senior Gebruiker, Senior Leverancier",
+      "B": "Opdrachtgever en Projectmanager",
+      "C": "Opdrachtgever alleen",
+      "D": "Opdrachtgever, PM, TM"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - volledige structuur. B. Onjuist - PM niet in Stuurgroep. C. Correct - minimaal Opdrachtgever. D. Onjuist - PM/TM niet in Stuurgroep.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 375,
+    "vraag": "Welk rapport informeert de Stuurgroep over fasestatus?",
+    "opties": {
+      "A": "Checkpointrapport",
+      "B": "Highlight Report",
+      "C": "Eindrapport",
+      "D": "Afwijkingsrapport"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - gaat naar PM. B. Correct - periodieke status naar Stuurgroep. C. Onjuist - aan het einde. D. Onjuist - bij dreigende overschrijding.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 376,
+    "vraag": "Wat is het doel van Manage by exception?",
+    "opties": {
+      "A": "Alle beslissingen door Stuurgroep",
+      "B": "Toleranties definiëren voor zelfstandig werken",
+      "C": "Onervaren teamleden uitsluiten",
+      "D": "Alle risicos voorkomen"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - voorkomt juist dit. B. Correct - grenzen voor zelfstandig werken. C. Onjuist - geen relatie. D. Onjuist - onmogelijk.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 377,
+    "vraag": "Wanneer wordt het risicoregister eerst aangemaakt?",
+    "opties": {
+      "A": "Voordat project start",
+      "B": "Tijdens Opstarten",
+      "C": "Tijdens Initiëren",
+      "D": "Begin leveringsfase"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - binnen project. B. Correct - geïnitieerd tijdens Opstarten. C. Onjuist - wordt verfijnd. D. Onjuist - bestaat al.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 378,
+    "vraag": "Wat is een benefit in PRINCE2?",
+    "opties": {
+      "A": "Meetbare verbetering uit uitkomst",
+      "B": "Totale kosten",
+      "C": "Gerealiseerd risico",
+      "D": "Opgeleverd product"
+    },
+    "correct": "A",
+    "uitleg": "A. Correct - meetbare verbetering. B. Onjuist - kosten zijn geen benefits. C. Onjuist - dat is issue. D. Onjuist - dat is output.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 379,
+    "vraag": "Welk proces wordt door de Stuurgroep uitgevoerd?",
+    "opties": {
+      "A": "Managen Productoplevering",
+      "B": "Beheersen Fase",
+      "C": "Sturen van een Project",
+      "D": "Initiëren"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - door TM. B. Onjuist - door PM. C. Correct - proces van Stuurgroep. D. Onjuist - door PM.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 380,
+    "vraag": "Wat bevat het configuratie-itemrecord?",
+    "opties": {
+      "A": "Alleen naam",
+      "B": "Status, versie en relaties",
+      "C": "Volledige inhoud",
+      "D": "Alleen eigenaar"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - veel meer. B. Correct - status, versie, eigenaar, relaties. C. Onjuist - inhoud niet in record. D. Onjuist - een van attributen.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 381,
+    "vraag": "Wat is het doel van een Werkpakket?",
+    "opties": {
+      "A": "Stuurgroep informeren",
+      "B": "Werk autoriseren en definiëren",
+      "C": "Business Case documenteren",
+      "D": "Risicos registreren"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - Highlight Report. B. Correct - autoriseert werk. C. Onjuist - apart document. D. Onjuist - risicoregister.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 382,
+    "vraag": "Welk principe vereist fasen in projecten?",
+    "opties": {
+      "A": "Zakelijke rechtvaardiging",
+      "B": "Leren van ervaringen",
+      "C": "Managen per fase",
+      "D": "Focus op producten"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - Business Case. B. Onjuist - kennisdeling. C. Correct - fasen vereist. D. Onjuist - productgericht plannen.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 383,
+    "vraag": "Wat beschrijft de kwaliteitsmanagementaanpak?",
+    "opties": {
+      "A": "Specifieke criteria per product",
+      "B": "Hoe kwaliteitsmanagement wordt toegepast",
+      "C": "Resultaten kwaliteitscontroles",
+      "D": "Kwalificaties teamleden"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - in productbeschrijvingen. B. Correct - systemen en methoden. C. Onjuist - in kwaliteitsregister. D. Onjuist - resourcemanagement.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 384,
+    "vraag": "Wat gebeurt tijdens Afsluiten van een Project?",
+    "opties": {
+      "A": "Autoriseren initiatiefase",
+      "B": "Evalueren en overdragen producten",
+      "C": "Maken eerste Faseplan",
+      "D": "Uitvoeren werkpakketten"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - bij Opstarten. B. Correct - overdracht en evaluatie. C. Onjuist - bij Initiëren. D. Onjuist - bij Managen Productoplevering.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 385,
+    "vraag": "Wat is de relatie tussen uitkomsten en benefits?",
+    "opties": {
+      "A": "Ze zijn hetzelfde",
+      "B": "Benefits leiden tot uitkomsten",
+      "C": "Uitkomsten leiden tot benefits",
+      "D": "Geen relatie"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - verschillende concepten. B. Onjuist - andersom. C. Correct - outputs-uitkomsten-benefits. D. Onjuist - wel relatie.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 386,
+    "vraag": "Wat is een kenmerk van Projectborging?",
+    "opties": {
+      "A": "Altijd externe auditors",
+      "B": "Onafhankelijke controle namens Stuurgroep",
+      "C": "Dagelijkse projectbesturing",
+      "D": "Autoriseert alle wijzigingen"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - intern of extern. B. Correct - onafhankelijke monitoring. C. Onjuist - rol PM. D. Onjuist - wijzigingsautoriteit.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 387,
+    "vraag": "Welk type tolerantie wordt NIET standaard gedefinieerd?",
+    "opties": {
+      "A": "Tijd",
+      "B": "Kosten",
+      "C": "Kwaliteit",
+      "D": "Methodologie"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist - standaardaspect. B. Onjuist - standaardaspect. C. Onjuist - standaardaspect. D. Correct - zes aspecten: tijd, kosten, kwaliteit, scope, risico, benefits.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 388,
+    "vraag": "Wie is eigenaar van de Business Case?",
+    "opties": {
+      "A": "Projectmanager",
+      "B": "Senior Gebruiker",
+      "C": "Opdrachtgever",
+      "D": "Senior Leverancier"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - maakt maar niet eigenaar. B. Onjuist - gebruikersbelangen. C. Correct - eigenaar BC. D. Onjuist - leveranciersbelangen.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 389,
+    "vraag": "Wat is het doel van de risicomanagementaanpak?",
+    "opties": {
+      "A": "Vastleggen individuele risicos",
+      "B": "Beschrijven hoe risicomanagement wordt toegepast",
+      "C": "Definiëren risicotoleranties",
+      "D": "Toewijzen risico-eigenaren"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - risicoregister. B. Correct - procedures en technieken. C. Onjuist - elders. D. Onjuist - per risico.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 390,
+    "vraag": "Wat is een dis-benefit?",
+    "opties": {
+      "A": "Gerealiseerd risico",
+      "B": "Negatief gevolg als nadelig ervaren",
+      "C": "Niet-begrote kosten",
+      "D": "Product voldoet niet"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - issue. B. Correct - negatief resultaat. C. Onjuist - budgetoverschrijding. D. Onjuist - kwaliteitsprobleem.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 391,
+    "vraag": "Welk proces beheert interface met corporate management?",
+    "opties": {
+      "A": "Initiëren",
+      "B": "Sturen van een Project",
+      "C": "Beheersen Fase",
+      "D": "Managen Productoplevering"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - projectvoorbereiding. B. Correct - interface met hogere lagen. C. Onjuist - fasebeheer. D. Onjuist - teamwerk.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 392,
+    "vraag": "Wat is primaire input voor productdecompositiestructuur?",
+    "opties": {
+      "A": "Projectplan",
+      "B": "Projectproductbeschrijving",
+      "C": "Business Case",
+      "D": "Risicoregister"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - plan na PDS. B. Correct - eindproduct bepaalt PDS. C. Onjuist - rechtvaardiging. D. Onjuist - risicos.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 393,
+    "vraag": "Welke responsstrategie vermindert waarschijnlijkheid bedreiging?",
+    "opties": {
+      "A": "Vermijden",
+      "B": "Reduceren",
+      "C": "Overdragen",
+      "D": "Accepteren"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - elimineert volledig. B. Correct - vermindert waarschijnlijkheid/impact. C. Onjuist - verschuift naar derde. D. Onjuist - geen actie.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 394,
+    "vraag": "Wat gebeurt bij dreigende tolerantieoverschrijding?",
+    "opties": {
+      "A": "Project stopt direct",
+      "B": "Escalatie naar volgend niveau",
+      "C": "Tolerantie automatisch verhoogd",
+      "D": "Team werkt harder"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - niet automatisch. B. Correct - escalatie via afwijkingsrapport. C. Onjuist - niet automatisch. D. Onjuist - geen managementreactie.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 395,
+    "vraag": "Wat is de rol van de wijzigingsautoriteit?",
+    "opties": {
+      "A": "Implementeren wijzigingen",
+      "B": "Beoordelen en autoriseren wijzigingsverzoeken",
+      "C": "Documenteren in dagboek",
+      "D": "Voorkomen wijzigingen"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - andere activiteit. B. Correct - beoordelen en autoriseren. C. Onjuist - administratief. D. Onjuist - onmogelijk.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 396,
+    "vraag": "Welk document definieert communicatiebeheer?",
+    "opties": {
+      "A": "Projectvoorstel",
+      "B": "Communicatiemanagementaanpak",
+      "C": "Highlight Report",
+      "D": "Werkpakket"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - triggert initiatie. B. Correct - definieert communicatiebeheer. C. Onjuist - rapport. D. Onjuist - autoriseert werk.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 397,
+    "vraag": "Wat is een output volgens PRINCE2?",
+    "opties": {
+      "A": "Meetbare verbetering",
+      "B": "Verandering in gedrag",
+      "C": "Tastbaar of ontastbaar product",
+      "D": "Investering in project"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - benefit. B. Onjuist - uitkomst. C. Correct - specialist- of managementproduct. D. Onjuist - kosten.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 398,
+    "vraag": "Welk principe zorgt voor aanpassing aan projectbehoeften?",
+    "opties": {
+      "A": "Leren van ervaringen",
+      "B": "Gedefinieerde rollen",
+      "C": "Op maat maken",
+      "D": "Zakelijke rechtvaardiging"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - kennisdeling. B. Onjuist - projectorganisatie. C. Correct - aanpassen aan context. D. Onjuist - Business Case.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 399,
+    "vraag": "Wie specificeert acceptatiecriteria projectproduct?",
+    "opties": {
+      "A": "Projectmanager",
+      "B": "Senior Gebruiker",
+      "C": "Senior Leverancier",
+      "D": "Teammanager"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - coördineert. B. Correct - namens gebruikers. C. Onjuist - levert middelen. D. Onjuist - voert uit.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 400,
+    "vraag": "Wat is het ervaringslogboek?",
+    "opties": {
+      "A": "Register risicos",
+      "B": "Verzameling geleerde lessen",
+      "C": "Overzicht kosten",
+      "D": "Lijst producten"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - risicoregister. B. Correct - documenteert lessen. C. Onjuist - elders. D. Onjuist - PDS.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 401,
+    "vraag": "Wanneer moet Business Case worden gereviewed?",
+    "opties": {
+      "A": "Alleen einde project",
+      "B": "Bij elke faseovergang",
+      "C": "Alleen bij wijzigingsverzoeken",
+      "D": "Nooit na initiatie"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - gedurende project. B. Correct - bij elke faseovergang. C. Onjuist - ook zonder wijzigingen. D. Onjuist - review essentieel.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 402,
+    "vraag": "Wat is verschil kwaliteitscontrole en kwaliteitsborging?",
+    "opties": {
+      "A": "Geen verschil",
+      "B": "Controle verifieert producten, borging verifieert processen",
+      "C": "Borging alleen externe audits",
+      "D": "Controle alleen aan einde"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - wel verschil. B. Correct - producten vs processen. C. Onjuist - borging breder. D. Onjuist - doorlopend.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 403,
+    "vraag": "Welk product beschrijft het eindproduct?",
+    "opties": {
+      "A": "Projectplan",
+      "B": "Business Case",
+      "C": "Projectproductbeschrijving",
+      "D": "Werkpakket"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - hoe uitgevoerd. B. Onjuist - rechtvaardiging. C. Correct - definieert eindproduct. D. Onjuist - toewijzing.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 404,
+    "vraag": "Wat is een managementfase?",
+    "opties": {
+      "A": "Technische fase",
+      "B": "Beslissingspunt voor Stuurgroep",
+      "C": "Vergadering Stuurgroep",
+      "D": "Deliverable"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - iets anders. B. Correct - beslissingspunt voortzetting. C. Onjuist - periode niet vergadering. D. Onjuist - geen deliverable.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 405,
+    "vraag": "Welk document bij dreigende tolerantieoverschrijding?",
+    "opties": {
+      "A": "Highlight Report",
+      "B": "Afwijkingsrapport",
+      "C": "Checkpointrapport",
+      "D": "Eindrapport"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - reguliere updates. B. Correct - bij dreigende overschrijding. C. Onjuist - naar PM. D. Onjuist - afsluiting.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 406,
+    "vraag": "Wat is doel configuratiemanagement?",
+    "opties": {
+      "A": "Financiële administratie",
+      "B": "Identificeren, bijhouden, beschermen producten",
+      "C": "Managen projectteam",
+      "D": "Plannen activiteiten"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - financieel management. B. Correct - producten beheren. C. Onjuist - resourcemanagement. D. Onjuist - planning.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 407,
+    "vraag": "Wie levert middelen voor het project?",
+    "opties": {
+      "A": "Opdrachtgever",
+      "B": "Senior Gebruiker",
+      "C": "Senior Leverancier",
+      "D": "Projectmanager"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - business. B. Onjuist - gebruikers. C. Correct - levert middelen. D. Onjuist - coördineert.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 408,
+    "vraag": "Welke risicostrategie voor een kans?",
+    "opties": {
+      "A": "Vermijden",
+      "B": "Reduceren",
+      "C": "Exploiteren",
+      "D": "Overdragen"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - voor bedreigingen. B. Onjuist - voor bedreigingen. C. Correct - maximaliseer kans. D. Onjuist - voor bedreigingen.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 409,
+    "vraag": "Wat beschrijft de benefitsmanagementaanpak?",
+    "opties": {
+      "A": "Specifieke benefits",
+      "B": "Hoe benefits worden gemeten en gerealiseerd",
+      "C": "Kosten project",
+      "D": "Risicos benefits"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - in BC. B. Correct - meten en realiseren. C. Onjuist - elders. D. Onjuist - risicoregister.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 410,
+    "vraag": "Wat is kenmerk Focus op producten?",
+    "opties": {
+      "A": "Alleen technische producten",
+      "B": "Producten definiëren voor activiteiten",
+      "C": "Managementproducten niet nodig",
+      "D": "Klant bepaalt alles"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - alle producten. B. Correct - eerst producten, dan activiteiten. C. Onjuist - essentieel. D. Onjuist - samen bepaald.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 411,
+    "vraag": "Wat is primair doel Beheersen Fase?",
+    "opties": {
+      "A": "Autoriseren volgende fase",
+      "B": "Werk toewijzen, voortgang monitoren, afwijkingen corrigeren",
+      "C": "Project afsluiten",
+      "D": "Business Case maken"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - Stuurgroep. B. Correct - dagelijks managen fase. C. Onjuist - Afsluiten Project. D. Onjuist - Initiëren.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 412,
+    "vraag": "Welk type plan is optioneel?",
+    "opties": {
+      "A": "Projectplan",
+      "B": "Faseplan",
+      "C": "Teamplan",
+      "D": "Uitzonderingsplan"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - verplicht. B. Onjuist - verplicht. C. Correct - optioneel. D. Onjuist - wanneer nodig.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 413,
+    "vraag": "Wanneer wordt uitzonderingsplan gemaakt?",
+    "opties": {
+      "A": "Begin elke fase",
+      "B": "Bij dreigende tolerantieoverschrijding",
+      "C": "Project op schema",
+      "D": "Alleen einde project"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - faseplannen. B. Correct - vervangt bij overschrijding. C. Onjuist - niet nodig. D. Onjuist - elk moment.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 414,
+    "vraag": "Wat is verantwoordelijkheid Projectondersteuning?",
+    "opties": {
+      "A": "Beslissingen nemen",
+      "B": "Administratieve ondersteuning aan PM",
+      "C": "Werkpakketten uitvoeren",
+      "D": "Business Case schrijven"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - geen beslissingen. B. Correct - administratieve hulp. C. Onjuist - teams. D. Onjuist - PM.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 415,
+    "vraag": "Wat is een residueel risico?",
+    "opties": {
+      "A": "Nieuw geïdentificeerd",
+      "B": "Overblijvend na responsmaatregelen",
+      "C": "Geaccepteerd risico",
+      "D": "Gerealiseerd risico"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - nieuw risico. B. Correct - na mitigatie. C. Onjuist - responsstrategie. D. Onjuist - issue.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 416,
+    "vraag": "Wat is dagboek Projectmanager?",
+    "opties": {
+      "A": "Formeel risicoregister",
+      "B": "Informeel document voor notities",
+      "C": "Officieel projectplan",
+      "D": "Rapport voor Stuurgroep"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - risicoregister. B. Correct - informeel hulpmiddel. C. Onjuist - plan formeel. D. Onjuist - apart.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 417,
+    "vraag": "Welk proces bevat Autoriseer initiatiefase?",
+    "opties": {
+      "A": "Opstarten",
+      "B": "Initiëren",
+      "C": "Sturen van een Project",
+      "D": "Beheersen Fase"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - bereidt voor. B. Onjuist - volgt na. C. Correct - Stuurgroep autoriseert. D. Onjuist - fasemanagement.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 418,
+    "vraag": "Wat is het issueregister?",
+    "opties": {
+      "A": "Lijst mijlpalen",
+      "B": "Register formele issues",
+      "C": "Overzicht kosten",
+      "D": "Lijst teamleden"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - in plannen. B. Correct - formele issues. C. Onjuist - elders. D. Onjuist - projectorganisatie.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 419,
+    "vraag": "Wat is doel kwaliteitsregister?",
+    "opties": {
+      "A": "Definiëren criteria",
+      "B": "Vastleggen geplande en uitgevoerde kwaliteitsactiviteiten",
+      "C": "Beschrijven kwaliteitsaanpak",
+      "D": "Toewijzen verantwoordelijkheden"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - productbeschrijvingen. B. Correct - vastleggen activiteiten. C. Onjuist - kwaliteitsmanagementaanpak. D. Onjuist - elders.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 420,
+    "vraag": "Wat is relatie initiatiefase en leveringsfasen?",
+    "opties": {
+      "A": "Initiatiefase optioneel",
+      "B": "Altijd initiatiefase gevolgd door leveringsfase(s)",
+      "C": "Leveringsfasen voor initiatiefase",
+      "D": "Meerdere initiatiefasen mogelijk"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist - verplicht. B. Correct - een initiatie, dan levering(en). C. Onjuist - initiatie eerst. D. Onjuist - slechts een.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  }
+]
