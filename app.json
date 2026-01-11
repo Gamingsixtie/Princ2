@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "prince2",
+    "name": "PRINCE2 Trainer",
     "slug": "prince2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "prince2"
   }
 }
