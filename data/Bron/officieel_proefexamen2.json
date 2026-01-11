@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "vraag": "Wat is een opleveraanpak waarbij de volgende stap pas wordt gestart als de vorige stap is afgerond en het product aan het eind van het project beschikbaar is?",
+    "opties": {
+      "A": "Lineair-sequentieel",
+      "B": "Hybride",
+      "C": "Iteratief-incrementeel",
+      "D": "Gebeurtenisgedreven"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Elke stap om een product te maken wordt sequentieel uitgevoerd en het product wordt beschikbaar gemaakt tijdens of aan het einde van het project. B. Onjuist - hybride combineert verschillende aanpakken. C. Onjuist - iteratief-incrementeel levert tussentijds op. D. Onjuist - gebeurtenisgedreven is een type beheersinstrument.",
+    "thema": "Concepten",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 2,
+    "vraag": "Welk kenmerk van een project heeft betrekking op teams van verschillende organisaties die samenwerken?",
+    "opties": {
+      "A": "Multidisciplinair",
+      "B": "Uniek",
+      "C": "Tijdelijk",
+      "D": "Wijziging"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Multidisciplinair betekent dat teams van verschillende organisaties samenwerken. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Concepten",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 3,
+    "vraag": "Welk principe wordt toegepast bij de review of het project waardevolle producten zal opleveren?",
+    "opties": {
+      "A": "Zorgen voor voortdurende zakelijke rechtvaardiging",
+      "B": "Leren van ervaringen",
+      "C": "Manage by exception",
+      "D": "Op maat maken voor het project"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het principe zorgen voor voortdurende zakelijke rechtvaardiging wordt toegepast bij het reviewen of het project waardevolle producten zal opleveren. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 4,
+    "vraag": "Een extern IT-bedrijf wordt aangesteld om een nieuw boekhoudsysteem te leveren als onderdeel van een project. Welk principe wordt toegepast bij het overeenkomen van het contract met het IT-bedrijf?",
+    "opties": {
+      "A": "Definiëren van rollen, verantwoordelijkheden en relaties",
+      "B": "Managen per fase",
+      "C": "Manage by exception",
+      "D": "Op maat maken voor het project"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het overeenkomen van contracten met externe partijen valt onder het definiëren van rollen, verantwoordelijkheden en relaties. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 5,
+    "vraag": "Wat maakt het principe 'manage by exception' mogelijk?",
+    "opties": {
+      "A": "Beslissingen moeten worden genomen door de juiste mensen, op het juiste moment",
+      "B": "Het project levert de benefits op die worden vereist door het bedrijf",
+      "C": "De leden van het projectteam begrijpen hun bijdrage aan het project",
+      "D": "Het projectteam definieert de projectscope die door het project moet worden opgeleverd"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Manage by exception maakt het mogelijk dat beslissingen worden genomen door de juiste mensen, op het juiste moment. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 6,
+    "vraag": "De projectmanager is met de teammanager overeengekomen dat een werkpakket maximaal 1 week later kan worden opgeleverd dan in het teamplan staat. Welk principe past de projectmanager toe?",
+    "opties": {
+      "A": "Leren van ervaringen",
+      "B": "Definiëren van rollen, verantwoordelijkheden en relaties",
+      "C": "Manage by exception",
+      "D": "Focussen op producten"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Het vaststellen van toleranties (1 week vertraging) is een toepassing van Manage by exception. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 7,
+    "vraag": "De projectmanager heeft aanbevolen om een aantal managementproducten voor het project te combineren. In welk managementproduct moet dit worden vastgelegd?",
+    "opties": {
+      "A": "Projectplan",
+      "B": "Projectinitiatiedocumentatie",
+      "C": "Faseplan",
+      "D": "Business case"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het combineren van managementproducten (op maat maken) wordt vastgelegd in de projectinitiatiedocumentatie. C. Onjuist. D. Onjuist.",
+    "thema": "Op Maat Maken",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 8,
+    "vraag": "Wat is een definitie van leiderschap?",
+    "opties": {
+      "A": "Mensen motiveren door middel van overtuigen, beïnvloeden en co-creëren",
+      "B": "Ervoor zorgen dat het project goed is geïnitieerd voordat het werk aan de oplevering begint",
+      "C": "Governance mogelijk maken door bevoegdheid te delegeren van het ene managementniveau naar het volgende",
+      "D": "Het project afgestemd houden op de benefits die het bedrijf nastreeft"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Leiderschap is mensen motiveren door middel van overtuigen, beïnvloeden en co-creëren. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 9,
+    "vraag": "Welke term wordt gedefinieerd als het proces van mensen die samenwerken om de projectdoelstellingen te behalen?",
+    "opties": {
+      "A": "Samenwerking",
+      "B": "Plannen",
+      "C": "Wijziging",
+      "D": "Co-creatie"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Samenwerking is het proces van mensen die samenwerken om de projectdoelstellingen te behalen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 10,
+    "vraag": "Wat is een definitie van een stakeholder?",
+    "opties": {
+      "A": "Een individu dat het project kan beïnvloeden",
+      "B": "Iemand die een actie onderneemt om een onzekerheid te mitigeren",
+      "C": "Iedereen die verantwoordelijk is voor de algemene sturing van het project",
+      "D": "Een onafhankelijke persoon die beoordeelt of een product aan de kwaliteitscriteria voldoet"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een stakeholder is een individu dat het project kan beïnvloeden. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 11,
+    "vraag": "Welke activiteit moet zorgvuldig worden gemanaged als onderdeel van 'leidinggeven over organisatiegrenzen heen', omdat deze kan worden uitgevoerd door mensen die buiten het projectteam staan?",
+    "opties": {
+      "A": "Het opleveren van de producten volgens de overeengekomen kwaliteitsspecificaties",
+      "B": "Het integreren van nieuwe producten in elk geraakt gebied van het bedrijf",
+      "C": "Het verkrijgen van commitment voor de realisatie van benefits na het project",
+      "D": "Het verkrijgen van financiering van de bedrijfslaag voor de business case"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het integreren van nieuwe producten in elk geraakt gebied van het bedrijf wordt uitgevoerd door mensen buiten het projectteam. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 12,
+    "vraag": "Welke uitspraak over effectieve stakeholderbetrokkenheid binnen een project is JUIST?",
+    "opties": {
+      "A": "De belangrijkste beïnvloeders zijn meestal hogere leidinggevenden en niet degenen die operationele taken uitvoeren",
+      "B": "De belangrijkste beïnvloeders met de grootste invloed blijven hetzelfde gedurende de looptijd van het project",
+      "C": "De meeste communicatie met de belangrijkste beïnvloeders moet via formele communicatiekanalen verlopen",
+      "D": "Het projectmanagementteam moet nauw samenwerken met de belangrijkste beïnvloeders om voor het succes van het project te zorgen"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Het projectmanagementteam moet nauw samenwerken met de belangrijkste beïnvloeders om voor het succes van het project te zorgen.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 13,
+    "vraag": "Waar wordt het MEEST WAARSCHIJNLIJK op gelet bij het samenstellen van een effectief projectteam?",
+    "opties": {
+      "A": "Of teamleden training nodig hebben om hun vaardigheden en competenties te verbeteren",
+      "B": "Ervoor zorgen dat de projectmanager een hogere rang heeft dan de teamleden",
+      "C": "Of het waarschijnlijk is dat communicatiemanagementaanpak zal evolueren tijdens de looptijd van het project",
+      "D": "Ervoor zorgen dat elk teamlid zorgvuldig wordt gekozen door de projectmanager"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Bij het samenstellen van een effectief team wordt gekeken of teamleden training nodig hebben. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 14,
+    "vraag": "Wat is een beschrijving van een doel van een verandermanagementaanpak?",
+    "opties": {
+      "A": "Beschrijven welke rollen verantwoordelijk zijn voor het managen van onzekerheden in het opleveren van de doeltoestand",
+      "B": "Beschrijven hoe de impact van een wijzigingsverzoek op de overeengekomen tijdlijn van het project wordt beoordeeld",
+      "C": "Beschrijven welke technieken gebruikt zullen worden om te reviewen of producten voldoen aan de verwachtingen van de stakeholders",
+      "D": "Beschrijven hoe het bedrijf van de huidige manier van werken naar de beoogde toestand gaat"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. De verandermanagementaanpak beschrijft hoe het bedrijf van de huidige manier van werken naar de beoogde toestand gaat.",
+    "thema": "Mensen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 15,
+    "vraag": "Welk principe wordt toegepast door het element 'mensen' wanneer de mate van vertrouwen de mate van delegeren bepaalt?",
+    "opties": {
+      "A": "Manage by exception",
+      "B": "Managen per fase",
+      "C": "Focussen op producten",
+      "D": "Op maat maken voor de projectcontext"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De mate van vertrouwen die de mate van delegeren bepaalt is een toepassing van Manage by exception. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 16,
+    "vraag": "Welk managementproduct biedt het projectteam de BESTE basis voor het doorlopende management van het totale project?",
+    "opties": {
+      "A": "Hoofdpuntenrapport",
+      "B": "Projectplan",
+      "C": "Projectinitiatiedocumentatie",
+      "D": "Business case"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. De projectinitiatiedocumentatie biedt de beste basis voor doorlopend management van het totale project. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 17,
+    "vraag": "Wat is het directe resultaat van de gewenste eindresultaten?",
+    "opties": {
+      "A": "Het behalen van de bedrijfsdoelstellingen",
+      "B": "De oplevering van outputs volgens kwaliteitsspecificaties om te voldoen aan bedrijfsdoelstellingen",
+      "C": "Meetbare verbeteringen gedefinieerd in de business case",
+      "D": "Een verlaging van de kosten voor bedrijfswijzigingen gedefinieerd in de business case"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Het directe resultaat van eindresultaten zijn meetbare verbeteringen (benefits) gedefinieerd in de business case. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 18,
+    "vraag": "Wat moet het vertrouwen bieden dat er een degelijke rechtvaardiging is om een project uit te voeren?",
+    "opties": {
+      "A": "Projectvoorstel",
+      "B": "Business case",
+      "C": "Benefitsmanagementaanpak",
+      "D": "Projectplan"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. De business case biedt vertrouwen dat er een degelijke rechtvaardiging is om het project uit te voeren. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 19,
+    "vraag": "Welke term wordt gedefinieerd als het tastbare of ontastbare op te leveren product van een activiteit?",
+    "opties": {
+      "A": "Output",
+      "B": "Eindresultaat",
+      "C": "Benefit",
+      "D": "Plan"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Output is het tastbare of ontastbare op te leveren product van een activiteit. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 20,
+    "vraag": "Hoe worden enkele van de zeven aspecten van projectprestaties gebruikt bij het vaststellen van de zakelijke rechtvaardiging?",
+    "opties": {
+      "A": "Door in de business case alleen te focussen op de kosten van productontwikkeling in vergelijking tot de benefits",
+      "B": "Door dis-benefits als belangrijke risico's op te nemen in de beoordeling van de investering en ze af te wegen tegen de benefits",
+      "C": "Door begrip te krijgen van de vereisten voor productkwaliteit en welke impact deze hebben op tijd, kosten of duurzaamheidsdoelen",
+      "D": "Door ervoor te zorgen dat de projectproducten volledig worden gebruikt in de bedrijfsvoering om de benefits aan het bedrijf te leveren"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Begrip krijgen van kwaliteitsvereisten en hun impact op tijd, kosten of duurzaamheid helpt bij het vaststellen van zakelijke rechtvaardiging. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 21,
+    "vraag": "In welke stap van de managementtechniek voor de business case moet het projectmandaat worden gereviewd?",
+    "opties": {
+      "A": "Ontwikkelen",
+      "B": "Controleren",
+      "C": "Onderhouden",
+      "D": "Bevestigen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het projectmandaat wordt gereviewd in de stap Ontwikkelen van de business case. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 22,
+    "vraag": "Welk principe wordt toegepast door de practice 'organisatie' wanneer de projectopdrachtgever ervoor zorgt dat beslissingen worden afgestemd op de veranderende behoeften van het bedrijf?",
+    "opties": {
+      "A": "Focussen op producten",
+      "B": "Zorgen voor voortdurende zakelijke rechtvaardiging",
+      "C": "Leren van ervaringen",
+      "D": "Manage by exception"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het afstemmen van beslissingen op veranderende behoeften van het bedrijf is zorgen voor voortdurende zakelijke rechtvaardiging. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 23,
+    "vraag": "Een nieuw afdelingshoofd wil weten welke medewerkers betrokken zullen zijn bij het project. Welk managementproduct moet het afdelingshoofd reviewen?",
+    "opties": {
+      "A": "Projectmanagementteamstructuur",
+      "B": "Rolbeschrijvingen",
+      "C": "Projectlogboek",
+      "D": "Stuurgroep"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De projectmanagementteamstructuur toont welke medewerkers betrokken zijn bij het project. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 24,
+    "vraag": "Identificeer welk woord/welke woorden in de volgende zin ontbreken. PRINCE2 gebruikt de term [?] voor alle mensen die hun tijd aan het project moeten besteden.",
+    "opties": {
+      "A": "stakeholders",
+      "B": "gebruikers",
+      "C": "projectteam",
+      "D": "projectsupport"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. PRINCE2 gebruikt de term projectteam voor alle mensen die hun tijd aan het project moeten besteden. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 25,
+    "vraag": "Hoe moet de opdrachtgevende partij volgens de richtlijnen voor effectief organiseren bijdragen aan een project als het van start gaat?",
+    "opties": {
+      "A": "Door de projectopdrachtgever in het projectmandaat te identificeren",
+      "B": "Door per fase duurzaamheidsdoelen te stellen",
+      "C": "Door elke inbreuk op een tolerantie op projectniveau die zich voordoet, te autoriseren",
+      "D": "Door verantwoordelijk te zijn voor het algehele management van het project"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De opdrachtgevende partij moet de projectopdrachtgever in het projectmandaat identificeren. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 26,
+    "vraag": "In welke stap van de techniek voor organisatieontwerp en -ontwikkeling moet de verantwoordelijkheid voor het vaststellen van persoonlijke doelstellingen overeenkomen?",
+    "opties": {
+      "A": "Het organisatorisch ecosystem begrijpen",
+      "B": "Het projectecosysteem ontwikkelen",
+      "C": "Het projectecosysteem ontwerpen",
+      "D": "Overgang van het project naar het organisatorisch ecosystem"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. De verantwoordelijkheid voor persoonlijke doelstellingen wordt overeengekomen in de stap Het projectecosysteem ontwerpen. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 27,
+    "vraag": "Hoe moeten goedgekeurde plannen beheersing mogelijk maken?",
+    "opties": {
+      "A": "Plannen moeten de baseline verstrekken van waaruit het tijdschema kan worden ontwikkeld",
+      "B": "Plannen moeten worden gebruikt om de voortgang te monitoren en de impact van issues en risico's te beoordelen",
+      "C": "Plannen moeten worden bijgewerkt zodra een wijziging in de projectscope is geïdentificeerd om de herziene scope weer te geven",
+      "D": "Plannen voor het project als geheel omvatten schattingen die het meest nauwkeurig zijn"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Plannen moeten worden gebruikt om de voortgang te monitoren en de impact van issues en risico's te beoordelen. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 28,
+    "vraag": "De teammanager moet controleren welke producten zijn team moet leveren. Welk managementproduct moet de teammanager reviewen?",
+    "opties": {
+      "A": "Projectproductbeschrijving",
+      "B": "Werkpakketbeschrijving",
+      "C": "Faseplan",
+      "D": "Projectplan"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. De werkpakketbeschrijving toont welke producten het team moet leveren. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 29,
+    "vraag": "Wat wordt gedefinieerd als een plan op hoofdlijnen met de belangrijkste producten van het project?",
+    "opties": {
+      "A": "Een projectplan",
+      "B": "Een faseplan",
+      "C": "Een teamplan",
+      "D": "Een werkpakket"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een projectplan is een plan op hoofdlijnen met de belangrijkste producten van het project. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 30,
+    "vraag": "Hoe moet de projectmanager de planningshorizon aanpakken?",
+    "opties": {
+      "A": "Door een voltooid en gedetailleerd projectplan op te stellen op basis van nauwkeurige schattingen",
+      "B": "Door een plan voor de volgende fase op te stellen op basis van nauwkeurigere schattingen",
+      "C": "Door de belangrijkste producten en activiteiten in het projectplan te identificeren",
+      "D": "Door onderlinge afhankelijkheden tussen belangrijke producten in het faseplan te identificeren"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. De planningshorizon wordt aangepakt door een plan voor de volgende fase op te stellen op basis van nauwkeurigere schattingen. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 31,
+    "vraag": "In welke stap van de planningstechniek moet de projectmanager de apparatuur identificeren die nodig is om het plan te realiseren?",
+    "opties": {
+      "A": "Schattingen maken",
+      "B": "De producten definiëren en analyseren",
+      "C": "Werkpakketten organiseren",
+      "D": "Een tijdschema maken"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De benodigde apparatuur wordt geïdentificeerd in de stap Schattingen maken. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 32,
+    "vraag": "Wat is een beschrijving van een doel van de practice 'kwaliteit'?",
+    "opties": {
+      "A": "Definiëren hoe de producten van het project getest zullen worden om hun acceptatie te verkrijgen",
+      "B": "Definiëren hoe de projectopdrachtgever zal beslissen of de benefits de kosten overstijgen",
+      "C": "Het projectteam in staat stellen effectief te communiceren door te definiëren hoe de producten worden geleverd",
+      "D": "Het verzamelen en beoordelen van afwijkingen van specificatie en het beoordelen van wijzigingen in de overeengekomen projectscope"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een doel van kwaliteit is definiëren hoe producten getest worden om acceptatie te verkrijgen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 33,
+    "vraag": "De projectmanager moet controleren wanneer een output gepland staat om geïnspecteerd te worden. Welk managementproduct moet de projectmanager reviewen?",
+    "opties": {
+      "A": "Kwaliteitsmanagementaanpak",
+      "B": "Productbeschrijving",
+      "C": "Productregister",
+      "D": "Kwaliteitsregister"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Het kwaliteitsregister bevat informatie over wanneer outputs gepland staan voor inspectie.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 34,
+    "vraag": "Wat beschrijft kwaliteitsspecificaties?",
+    "opties": {
+      "A": "Ze worden toegepast bij de inspectie van een afgerond product",
+      "B": "Ze worden toegepast bij de acceptatie van het projectproduct",
+      "C": "Ze worden vastgelegd in de projectproductbeschrijving",
+      "D": "Ze worden vastgelegd in de kwaliteitsmanagementaanpak"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Kwaliteitsspecificaties worden toegepast bij de inspectie van een afgerond product. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 35,
+    "vraag": "Er wordt een gebouw gebouwd als onderdeel van het project. Het gebouw moet voldoen aan milieudoelen. Welke informatie moet worden vastgelegd als onderdeel van kwaliteitsplanning?",
+    "opties": {
+      "A": "De kwaliteitsactiviteiten om de productduurzaamheid te testen in het kwaliteitsregister",
+      "B": "De testresultaten na het testen van de milieuvereisten van het product",
+      "C": "De milieuvereisten als de specificaties in de productbeschrijving",
+      "D": "De post-projectreviews om de duurzaamheidsdoelen te meten in de benefitsmanagementaanpak"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Milieuvereisten worden als specificaties vastgelegd in de productbeschrijving. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 36,
+    "vraag": "De projectmanager heeft een geprioriteerde lijst met criteria waar het projectproduct aan moet voldoen voordat de gebruiker het accepteert. In welke stap van de techniek voor kwaliteitsmanagement moet deze prioritering worden gebruikt om kwaliteitsspecificaties te definiëren?",
+    "opties": {
+      "A": "Gebruikersinputs verzamelen",
+      "B": "Producten accepteren",
+      "C": "De kwaliteitsmanagementaanpak beschrijven",
+      "D": "Kwaliteit beheersen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Geprioriteerde criteria worden gebruikt in de stap Gebruikersinputs verzamelen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 37,
+    "vraag": "Waarom moet de practice 'risico' worden uitgevoerd?",
+    "opties": {
+      "A": "Om de stuurgroep in staat te stellen te beslissen of het waarschijnlijk is dat de eindresultaten en resulterende benefits zullen worden behaald",
+      "B": "Om de projectmanager in staat te stellen te voorspellen of het project op tijd en tegen kosten wordt opgeleverd",
+      "C": "Om de aanpassingen aan de huidige goedgekeurde versies van de projectproducten te identificeren",
+      "D": "Om kansen te identificeren en te managen die een positieve invloed hebben op het behalen van de projectdoelstellingen"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. De practice risico identificeert en managet kansen die een positieve invloed hebben op projectdoelstellingen.",
+    "thema": "Risico",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 38,
+    "vraag": "De PRINCE2-procedure moet op maat gemaakt worden om ervoor te zorgen dat gebeurtenissen die de doelstellingen kunnen beïnvloeden, worden gemanaged. In welk managementproduct moet dit worden vastgelegd?",
+    "opties": {
+      "A": "Risicomanagementaanpak",
+      "B": "Risicoregister",
+      "C": "Issuemanagementaanpak",
+      "D": "Issueregister"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De risicomanagementaanpak beschrijft hoe risico's worden gemanaged. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 39,
+    "vraag": "Welke term wordt gedefinieerd als een onzekere gebeurtenis of verzameling gebeurtenissen die, als die zou plaatsvinden, effect zou hebben op het behalen van doelstellingen?",
+    "opties": {
+      "A": "Risico",
+      "B": "Afwijking van specificatie",
+      "C": "Wijzigingsverzoek",
+      "D": "Probleem/punt van zorg"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een risico is een onzekere gebeurtenis die effect zou hebben op het behalen van doelstellingen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 40,
+    "vraag": "Hoe zorgt effectief risicomanagement voor inzicht in de totale risicoblootstelling van een project?",
+    "opties": {
+      "A": "Door risico's, in relatie tot de risicotolerantielijn, te positioneren op een samenvattend risicoprofiel",
+      "B": "Door verschillende soorten duurzaamheidsrisico's te identificeren",
+      "C": "Door het identificeren, beoordelen en plannen van maatregelen voor elk risico",
+      "D": "Door een risicobudget op te stellen voor het financieren van risicomaatregelen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Risico's positioneren op een samenvattend risicoprofiel geeft inzicht in totale risicoblootstelling. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 41,
+    "vraag": "De projectmanager moet het projectvoorstel reviewen om te beslissen wie verantwoordelijk wordt voor elke stap in de risicomanagementtechniek. In welke stap van de risicomanagementtechnieken moet dit gebeuren?",
+    "opties": {
+      "A": "Identificeren - context en doelstellingen definiëren",
+      "B": "Identificeren - bedreigingen en kansen identificeren",
+      "C": "Beoordelen - risico's prioriteren",
+      "D": "Plannen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het bepalen van verantwoordelijkheden gebeurt in de stap Identificeren - context en doelstellingen definiëren. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 42,
+    "vraag": "De seniorgebruiker is bezorgd dat de projectscope moet worden gewijzigd. Wanneer moet de seniorgebruiker dit issue aankaarten?",
+    "opties": {
+      "A": "Zodra het issue is geïdentificeerd",
+      "B": "Op de volgende geplande formele projectvergadering",
+      "C": "Op de volgende geplande vergadering van de leden van de stuurgroep",
+      "D": "Naarmate het einde van de fase nadert"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Issues moeten zodra ze zijn geïdentificeerd worden aangekaart. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 43,
+    "vraag": "De projectmanager wil de status bekijken van alle gebeurtenissen die worden overwogen door het projectmanagementteam. Welk managementproduct moet de projectmanager reviewen?",
+    "opties": {
+      "A": "Issueregister",
+      "B": "Issuerapport",
+      "C": "Risicoregister",
+      "D": "Productregister"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het issueregister bevat de status van alle gebeurtenissen die worden overwogen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 44,
+    "vraag": "Wat is de definitie van een wijzigingsverzoek?",
+    "opties": {
+      "A": "Een voorstel voor een wijziging van een baseline",
+      "B": "Iets dat verstrekt had moeten zijn, maar niet verstrekt is",
+      "C": "Een onzekere gebeurtenis die de doelstellingen kan beïnvloeden",
+      "D": "De huidige goedgekeurde versies van de projectproducten waarop wijzigingsbeheer van toepassing is"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een wijzigingsverzoek is een voorstel voor een wijziging van een baseline. B. Onjuist - dit is een afwijking van specificatie. C. Onjuist - dit is een risico. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 45,
+    "vraag": "De stuurgroep heeft aanzienlijke wijzigingsbevoegdheden gedelegeerd aan verschillende rollen in het projectmanagementteam. Welk negatief effect kan hier direct uit voortvloeien?",
+    "opties": {
+      "A": "De meeste wijzigingen in productbeschrijvingen kunnen worden gegenereerd door teamleden",
+      "B": "De feitelijke en geautoriseerde status van producten die in het productregister zijn geregistreerd, komen mogelijk niet overeen",
+      "C": "De stuurgroep kan traag zijn met het nemen van beslissingen, waardoor voortgang van de oplevering vertraging oploopt",
+      "D": "De projectscope kan minder worden afgestemd op de business case"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Bij veel gedelegeerde wijzigingsbevoegdheden kan de projectscope minder worden afgestemd op de business case.",
+    "thema": "Wijziging",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 46,
+    "vraag": "De projectmanager moet rekening houden met de impact van een issue op de benefits en kosten. In welke stap van de issuemanagementtechniek moet dit gebeuren?",
+    "opties": {
+      "A": "Issues beoordelen",
+      "B": "Issues verzamelen",
+      "C": "Beslissen over wijzigingen",
+      "D": "Wijzigingen implementeren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De impact op benefits en kosten wordt beoordeeld in de stap Issues beoordelen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 47,
+    "vraag": "Welke uitspraak beschrijft het BESTE waar voortgang moet worden bewaakt?",
+    "opties": {
+      "A": "Bij de (fase)overgangen aan het einde van elke fase",
+      "B": "Op project-, fase- en werkpakketniveau",
+      "C": "Op het niveau van productoplevering",
+      "D": "Bij projectafsluiting wanneer de kosten van het project worden berekend"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Voortgang moet worden bewaakt op project-, fase- en werkpakketniveau. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 48,
+    "vraag": "De projectmanager moet de stuurgroep informeren over welke goedgekeurde producten er nog openstaan voordat de stuurgroep verder werk goedkeurt. In welk managementproduct moet de projectmanager deze gegevens vastleggen?",
+    "opties": {
+      "A": "Checkpointrapport",
+      "B": "Hoofdpuntenrapport",
+      "C": "Fase-eindrapport",
+      "D": "Projecteindrapport"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Het fase-eindrapport informeert de stuurgroep over openstaande producten. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 49,
+    "vraag": "Identificeer welk woord ontbreekt in de volgende zin: De bedrijfslaag, buiten het projectteam, stelt de globale vereisten en de [?] niveaus voor het project vast.",
+    "opties": {
+      "A": "tolerantie",
+      "B": "issue",
+      "C": "prognose",
+      "D": "risico"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De bedrijfslaag stelt de tolerantieniveaus voor het project vast. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 50,
+    "vraag": "Het projectmandaat stelt een vaste datum vast voor de oplevering van het project. Er is nu overeengekomen dat het project tot 4 weken vertraging kan oplopen. Welk managementniveau moet dit overeenkomen?",
+    "opties": {
+      "A": "Stuurgroep",
+      "B": "Projectmanager",
+      "C": "Bedrijfslaag",
+      "D": "Teammanager"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. De bedrijfslaag stelt projecttoleranties vast. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 51,
+    "vraag": "Welke actie kan een projectmanager ondernemen als een issue ervoor zorgt dat een van de fasetoleranties wordt overschreden?",
+    "opties": {
+      "A": "Accepteren of afwijzen van de aanbeveling uit het afwijkingsrapport",
+      "B": "Oplossen van het issue binnen andere projecttoleranties en het opnemen in het volgende hoofdpuntenrapport",
+      "C": "Escaleren naar de bedrijfslaag voor advies en sturing om het afwijkingsrapport te implementeren",
+      "D": "Oplossen van het issue met behulp van andere fasetoleranties en het opnemen in het volgende hoofdpuntenrapport"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. De projectmanager kan het issue oplossen met behulp van andere fasetoleranties.",
+    "thema": "Voortgang",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 52,
+    "vraag": "Wat is een beschrijving van een doel van het proces 'initiëren van een project'?",
+    "opties": {
+      "A": "Het definiëren van hoe lang het duurt voordat het project oplevert wat nodig is voor acceptatie",
+      "B": "Het beheersen van de schakel tussen de projectmanager en de teammanagers",
+      "C": "Het reviewen, op hoofdlijnen, of het project waarde zal toevoegen aan een organisatie",
+      "D": "Het beoordelen of een project op tijd is opgeleverd en of het nog iets kan bijdragen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Initiëren definieert hoe lang het duurt voordat het project oplevert wat nodig is. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 53,
+    "vraag": "De teammanager moet overeenkomen welke producten wanneer geproduceerd moeten worden. In welk proces moet dit worden overeengekomen?",
+    "opties": {
+      "A": "Managen productoplevering",
+      "B": "Sturen van een project",
+      "C": "Managen van een faseovergang",
+      "D": "Beheersen van een fase"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. In Managen productoplevering worden de producten en timing overeengekomen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 54,
+    "vraag": "In welk proces wordt beoordeeld of alle doelstellingen uit de huidige projectinitiatiedocumentatie zijn behaald?",
+    "opties": {
+      "A": "Afsluiten van een project",
+      "B": "Beheersen van een fase",
+      "C": "Managen productoplevering",
+      "D": "Managen van een faseovergang"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. In Afsluiten van een project wordt beoordeeld of alle doelstellingen zijn behaald. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 55,
+    "vraag": "Welke TWEE zijn doelstellingen van het proces opstarten van een project? 1. De scope van het project definiëren zodat het geïnitieerd kan worden 2. Het werk autoriseren om het projectproduct op te leveren 3. Begrip krijgen van de kwaliteitstechnieken die worden toegepast in het project 4. De alternatieve manieren om het project uit te voeren, beoordelen",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Doelstellingen 1 en 4 zijn doelstellingen van opstarten van een project.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 56,
+    "vraag": "Welke TWEE activiteiten ondersteunen de doelstellingen van het proces 'sturen van een project'? 1. Autoriseren dat het projectteam wordt ontbonden als het werk voltooid is 2. Reviewen van plannen voor het meten van de benefits na het afsluiten van een project 3. Controleren of de producten na het afsluiten van een project gesupport kunnen worden door bedrijfsvoering 4. Controleren of aan de gebruikersvereisten is voldaan",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Activiteiten 1 en 2 ondersteunen de doelstellingen van sturen van een project. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 57,
+    "vraag": "Welke TWEE zijn doelstellingen van het proces 'beheersen van een fase'? 1. Reageren op risico's en issues op het moment dat ze aan de orde worden gesteld 2. De gedetailleerde activiteiten plannen voor de volgende projectfase 3. De projectbeheersinstrumenten definiëren 4. Voortdurend de zakelijke rechtvaardiging beoordelen",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Doelstellingen 1 en 4 zijn doelstellingen van beheersen van een fase.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 58,
+    "vraag": "Wanneer moet de projectmanager tijdens het proces 'managen van een faseovergang' de rest van de fase herplannen?",
+    "opties": {
+      "A": "Na rapportage aan de stuurgroep dat een fasetolerantie waarschijnlijk wordt overschreden",
+      "B": "Na advies van de stuurgroep naar aanleiding van een hoofdpuntenrapport tijdens de fase",
+      "C": "Na het verzoek aan de stuurgroep om een afwijkingsplan goed te keuren voor de fase",
+      "D": "Na het verzoek aan de stuurgroep een wijziging goed te keuren in het projectteam dat de producten van de fase levert"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Herplannen gebeurt na rapportage dat een fasetolerantie waarschijnlijk wordt overschreden. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 59,
+    "vraag": "Wat beschrijft hoe het proces 'beheersen van een fase' kan worden gebruikt?",
+    "opties": {
+      "A": "Het kan worden gebruikt door de projectmanager om de initiatiefase van een groot project te monitoren",
+      "B": "Het kan worden weggelaten als de rol van teammanager wordt vervuld door de projectmanager",
+      "C": "Het kan eventueel worden samengevoegd met het proces 'managen van een faseovergang'",
+      "D": "Het kan worden weggelaten als de teammanagers intern zijn in het bedrijf"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Beheersen van een fase kan worden gebruikt om de initiatiefase van een groot project te monitoren. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  },
+  {
+    "id": 60,
+    "vraag": "Welk projectkenmerk is bepalend voor de noodzaak van het proces 'afsluiten van een project'?",
+    "opties": {
+      "A": "Een project moet de gewenste wijziging overdragen aan de dagelijkse bedrijfsvoering",
+      "B": "Een project wordt opgeleverd met behulp van een nieuw projectteam",
+      "C": "Een project maakt gebruik van resources van verschillende afdelingen",
+      "D": "Een project heeft te maken met hogere niveaus van onzekerheid"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een project is eindig en moet de gewenste wijziging overdragen aan de dagelijkse bedrijfsvoering. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen8"
+  }
+]

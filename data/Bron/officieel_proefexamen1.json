@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "vraag": "Welke uitspraak beschrijft de projectcontext?",
+    "opties": {
+      "A": "Het moet worden begrepen door stakeholders zodat de principes op de juiste manier worden toegepast",
+      "B": "Het legt uit hoe elk aspect van projectmanagement moet worden toegepast om de processen effectief te laten zijn",
+      "C": "Het begeleidt de progressie van pre-projectactiviteiten door de fases van de projectlevenscyclus",
+      "D": "Het verzekert begrip van de behoeften van stakeholders en hun onderlinge relaties"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De projectcontext is een van de vijf geïntegreerde elementen van PRINCE2. Het beïnvloedt hoe de principes, practices en processen worden toegepast door de betrokken mensen om ervoor te zorgen dat de methode geschikt is voor de projectcontext. B. Onjuist - dit beschrijft practices. C. Onjuist - dit beschrijft processen. D. Onjuist - dit beschrijft het element mensen.",
+    "thema": "Concepten",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 2,
+    "vraag": "Wat is een kenmerk van een project waarmee het zich onderscheidt van de dagelijkse bedrijfsvoering?",
+    "opties": {
+      "A": "Projecten worden voortgezet nadat de dagelijkse bedrijfsvoering is hervat",
+      "B": "Projecten omvatten doorlopend management van bedrijfsvoering",
+      "C": "Elk project is anders dan vorige projecten",
+      "D": "Projectwerk is over het algemeen minder risicovol dan dagelijkse bedrijfsvoering"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Ieder project is uniek. Dit kan een ander team, klant, leverancier, product, locatie of tijdsbestek betekenen. Al deze factoren samen maken ieder project uniek. D. Onjuist - projecten zijn juist risicovoller.",
+    "thema": "Concepten",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 3,
+    "vraag": "De stuurgroep heeft besloten dat het project voortijdig moet worden afgesloten omdat de externe omgeving is gewijzigd. Welk principe wordt hier toegepast?",
+    "opties": {
+      "A": "Leren van ervaringen",
+      "B": "Op maat maken voor het project",
+      "C": "Manage by exception",
+      "D": "Zorgen voor voortdurende zakelijke rechtvaardiging"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Het principe zorgen voor voortdurende zakelijke rechtvaardiging vereist dat het project gerechtvaardigd blijft. Als de externe omgeving wijzigt zodat dit niet meer het geval is, moet het project worden afgesloten.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 4,
+    "vraag": "Welke uitspraak over het principe 'definiëren van rollen, verantwoordelijkheden en relaties' is JUIST?",
+    "opties": {
+      "A": "Het projectmanagementteam dient uitsluitend te bestaan uit interne stakeholders",
+      "B": "De dagelijkse managementstructuren van een organisatie zijn waarschijnlijk geschikt om het projectwerk te beheersen",
+      "C": "De stuurgroep moet vertegenwoordigers van externe leveranciers uitsluiten",
+      "D": "Leveranciers zijn stakeholders die extern kunnen zijn aan het bedrijf"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Leveranciers zijn stakeholders die extern kunnen zijn aan het bedrijf.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 5,
+    "vraag": "Welk principe wordt toegepast bij het stellen van grenzen aan de zeven aspecten van de prestaties om de projectmanager effectief te laten werken?",
+    "opties": {
+      "A": "Manage by exception",
+      "B": "Leren van ervaringen",
+      "C": "Op maat maken voor het project",
+      "D": "Definiëren van rollen, verantwoordelijkheden en relaties"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Manage by exception stelt toleranties vast voor de zeven prestatieaspecten zodat de projectmanager effectief kan werken binnen gestelde grenzen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 6,
+    "vraag": "Wat bevordert het principe 'zorgen voor voortdurende zakelijke rechtvaardiging'?",
+    "opties": {
+      "A": "Dat het project een bedrijfsstakeholder heeft om ervoor te zorgen dat de investering gerechtvaardigd blijft",
+      "B": "Dat het project wenselijk, levensvatbaar en haalbaar blijft naarmate het project voortgaat",
+      "C": "Dat door het project opgeleverde producten voldoen aan de kwaliteitvereisten",
+      "D": "Dat de PRINCE2-projectmanagementmethode geschikt is voor de omvang van de investering"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het principe zorgt ervoor dat het project wenselijk, levensvatbaar en haalbaar blijft gedurende de hele levenscyclus. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 7,
+    "vraag": "Welke uitspraak beschrijft hoe de principes effectief projectmanagement ondersteunen?",
+    "opties": {
+      "A": "Ze stellen het projectteam in staat om te beslissen hoe de methode op het project moet worden toegepast",
+      "B": "Ze houden rekening met industriespecifieke modellen aangezien PRINCE2 generiek is",
+      "C": "Ze vertrouwen op een gemeenschappelijke woordenlijst die moet worden toegepast zoals gedefinieerd in PRINCE2",
+      "D": "Ze moeten op dezelfde manier worden toegepast op alle projecten binnen een organisatie"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De principes stellen het projectteam in staat om te beslissen hoe de methode op het specifieke project moet worden toegepast. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 8,
+    "vraag": "Welke uitspraak beschrijft leiderschap in een project?",
+    "opties": {
+      "A": "Dit kan het beste worden gedaan door samenwerking binnen het gehele projectecosysteem",
+      "B": "Het is de verzameling gedeelde houdingen, waarden en doelen voor het project",
+      "C": "Het is een beheersing die plaatsvindt wanneer een specifieke gebeurtenis plaatsvindt",
+      "D": "Het is het instrueren over de uitvoering van taken volgens overeengekomen werkwijzen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Leiderschap kan het beste worden gedaan door samenwerking binnen het gehele projectecosysteem. B. Onjuist - dit beschrijft cultuur. C. Onjuist - dit beschrijft event-driven control. D. Onjuist - dit beschrijft management.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 9,
+    "vraag": "Wat is een definitie van co-creatie?",
+    "opties": {
+      "A": "Het samenwerken met de belangrijkste beïnvloeders om ervoor te zorgen dat de overeengekomen werkwijzen door alle onderdelen van het projectecosysteem worden aangenomen",
+      "B": "Het wijzigen van een van de goedgekeurde managementproducten die deel uitmaken van de projectbaseline",
+      "C": "Het zorgen dat beslissingen die bij faseovergang worden genomen, zijn gebaseerd op voortdurende zakelijke rechtvaardiging",
+      "D": "Het toepassen van managementbeheersing wanneer een specifieke gebeurtenis plaatsvindt"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Co-creatie is het samenwerken met de belangrijkste beïnvloeders om ervoor te zorgen dat de overeengekomen werkwijzen door alle onderdelen van het projectecosysteem worden aangenomen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 10,
+    "vraag": "Wat is GEEN aspect van leiderschap?",
+    "opties": {
+      "A": "Het instrueren over de uitvoering van taken volgens overeengekomen werkwijzen",
+      "B": "Het motiveren van mensen om de doelstellingen van een project te behalen",
+      "C": "Het overtuigen van, beïnvloeden van en co-creëren met stakeholders",
+      "D": "Het regelmatig vragen om feedback om afgestemd te blijven op de projectdoelstellingen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het instrueren over de uitvoering van taken is management, niet leiderschap. B. Onjuist - dit is wel leiderschap. C. Onjuist - dit is wel leiderschap. D. Onjuist - dit is wel leiderschap.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 11,
+    "vraag": "Welke activiteit moet zorgvuldig worden gemanaged als onderdeel van 'leidinggeven over organisatiegrenzen heen', omdat deze waarschijnlijk wordt uitgevoerd door mensen buiten het projectteam?",
+    "opties": {
+      "A": "Het verkrijgen van financiering van de bedrijfslaag voor de business case",
+      "B": "Het integreren van nieuwe producten in elk geraakt gebied van het bedrijf",
+      "C": "Het verkrijgen van commitment voor de realisatie van benefits na het project",
+      "D": "Het opleveren van de producten volgens de overeengekomen kwaliteitsspecificaties"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het integreren van nieuwe producten in elk geraakt gebied van het bedrijf wordt waarschijnlijk uitgevoerd door mensen buiten het projectteam. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 12,
+    "vraag": "Waarom is verandermanagement belangrijk in een project?",
+    "opties": {
+      "A": "Omdat stakeholders moeten begrijpen op welke organisatorische gebieden het project impact heeft",
+      "B": "Omdat de projectproducten moeten worden beschreven en worden onderworpen aan wijzigingsbeheer",
+      "C": "Omdat er vertrouwen nodig is dat het project de doelstellingen in termen van scope kan halen en gerechtvaardigd blijft",
+      "D": "Omdat de kwaliteitsverwachtingen van de gebruiker van de projectproducten begrepen moeten worden"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Stakeholders moeten begrijpen op welke organisatorische gebieden het project impact heeft. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 13,
+    "vraag": "Welke uitspraak over bekwaamheid en competentie binnen een project is JUIST?",
+    "opties": {
+      "A": "Teams moeten bestaan uit teamleden met vergelijkbare bekwaamheden en competenties",
+      "B": "Teamleden zullen waarschijnlijk verschillend presteren, afhankelijk van de structuur van het team",
+      "C": "Standaardrollen en -verantwoordelijkheden moeten worden gebruikt, gericht op de behoeften van het project",
+      "D": "Carrièrevoortgang van projectteamleden is vaak de verantwoordelijkheid van de projectmanager"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Teamleden zullen waarschijnlijk verschillend presteren, afhankelijk van de structuur van het team. C. Onjuist. D. Onjuist.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 14,
+    "vraag": "Wat is een beschrijving van een doel van de verandermanagementaanpak?",
+    "opties": {
+      "A": "Het beschrijven van hoe wijzigingsvoorstellen voor de projectbaseline moeten worden vastgelegd en goedgekeurd",
+      "B": "Het beschrijven van de standaarden die nodig zijn om producten op te leveren die voldoen aan de verwachtingen van de gebruiker",
+      "C": "Het definiëren van hoe het bedrijf in de toekomst zal moeten functioneren om de projectdoelstellingen te behalen",
+      "D": "Het beschrijven van de processen en procedures die nodig zijn om onzekerheid te managen"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist - dit is issuemanagementaanpak. B. Onjuist - dit is kwaliteitsmanagementaanpak. C. Juist. De verandermanagementaanpak definieert hoe het bedrijf in de toekomst zal moeten functioneren om de projectdoelstellingen te behalen. D. Onjuist - dit is risicomanagementaanpak.",
+    "thema": "Mensen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 15,
+    "vraag": "Een project houdt een workshop om ervaringen met nieuwe manieren van werken uit te wisselen tussen projectteamleden. Welk principe wordt toegepast door het element 'mensen'?",
+    "opties": {
+      "A": "Leren van ervaringen",
+      "B": "Manage by exception",
+      "C": "Definiëren van rollen, verantwoordelijkheden en relaties",
+      "D": "Focussen op producten"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het uitwisselen van ervaringen is een toepassing van het principe Leren van ervaringen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Principes",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 16,
+    "vraag": "Welk managementproduct moet de stuurgroep goedkeuren om de projectscope en tijdsbestek vast te leggen?",
+    "opties": {
+      "A": "Projectmandaat",
+      "B": "Benefitsmanagementaanpak",
+      "C": "Projectinitiatiedocumentatie",
+      "D": "Business case"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. De projectinitiatiedocumentatie (PID) legt de projectscope en tijdsbestek vast en moet door de stuurgroep worden goedgekeurd. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 17,
+    "vraag": "Wat is een doel van de practice business case?",
+    "opties": {
+      "A": "Om de projectopdrachtgever in staat te stellen te beslissen of het project wordt voortgezet",
+      "B": "Om de kwaliteitsverwachtingen van de gebruiker te identificeren om aan de bedrijfsbehoefte te voldoen",
+      "C": "Om te voorkomen dat de geplande eindresultaten dis-benefits veroorzaken voor het bedrijf",
+      "D": "Om de producten te definiëren en hoe ze geleverd worden om te voldoen aan de business case"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De business case stelt de projectopdrachtgever in staat te beslissen of het project wordt voortgezet. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 18,
+    "vraag": "Welke moet worden gebruikt om te rechtvaardigen of het project mag worden voortgezet?",
+    "opties": {
+      "A": "Projectvoorstel en benefitsmanagementaanpak",
+      "B": "Hoofdpuntenrapport en benefitsmanagementaanpak",
+      "C": "Business case en hoofdpuntenrapport",
+      "D": "Projectvoorstel en business case"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Het projectvoorstel en de business case worden gebruikt om te rechtvaardigen of het project mag worden voortgezet.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 19,
+    "vraag": "Identificeer de ontbrekende woorden in de volgende zin: Een bedrijfsdoelstelling betreft de meetbare eindresultaten die voortgang aantonen in relatie tot [?] en waaraan het project moet bijdragen.",
+    "opties": {
+      "A": "De strategie van de organisatie",
+      "B": "De door het bedrijf gewenste output",
+      "C": "De door het bedrijf gewenste benefits",
+      "D": "De zakelijke rechtvaardiging"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een bedrijfsdoelstelling betreft de meetbare eindresultaten die voortgang aantonen in relatie tot de strategie van de organisatie. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 20,
+    "vraag": "Een afdeling van de overheid heeft als doel om de CO2-voetafdruk met 8-12% te verminderen. Hoe moet deze requirement worden vastgelegd?",
+    "opties": {
+      "A": "Als benefitstolerantie",
+      "B": "Als duurzaamheidstolerantie",
+      "C": "Als te behalen eindresultaten",
+      "D": "Als kwaliteitstolerantie"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een bereik van 8-12% is een tolerantie op een benefit (CO2-reductie). B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 21,
+    "vraag": "Tijdens een fase registreerde de projectmanager een nieuw risico in het risicoregister. In welke stap van de business case-managementtechniek moet de impact op de business case worden beoordeeld?",
+    "opties": {
+      "A": "Ontwikkelen",
+      "B": "Controleren",
+      "C": "Onderhouden",
+      "D": "Bevestigen"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. In de stap Onderhouden wordt de impact van nieuwe risico's op de business case beoordeeld. D. Onjuist.",
+    "thema": "Business Case",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 22,
+    "vraag": "De projectmanager heeft feedback ontvangen van stakeholders die aangeven dat de structuur van het projectteam gewijzigd moet worden. Welk principe wordt toegepast door de practice 'organisatie' bij het uitvoeren van deze feedback?",
+    "opties": {
+      "A": "Leren van ervaringen",
+      "B": "Definiëren van rollen, verantwoordelijkheden en relaties",
+      "C": "Managen per fase",
+      "D": "Op maat maken voor het project"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het toepassen van feedback van stakeholders is een vorm van Leren van ervaringen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 23,
+    "vraag": "Welk managementproduct moet individuele eindverantwoordelijkheid voor duurzaamheidsdoelen specificeren?",
+    "opties": {
+      "A": "Rolbeschrijvingen",
+      "B": "Projectmanagementteamstructuur",
+      "C": "Productbeschrijving",
+      "D": "Business case"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Rolbeschrijvingen specificeren individuele eindverantwoordelijkheden, inclusief voor duurzaamheidsdoelen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 24,
+    "vraag": "Wat wordt gedefinieerd als de bevoegdheid hebben om het project te sturen binnen de opdracht van het bedrijf?",
+    "opties": {
+      "A": "Projectmanager",
+      "B": "Projectopdrachtgever",
+      "C": "Projectmanagementteam",
+      "D": "Stuurgroep"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. De stuurgroep heeft de bevoegdheid om het project te sturen binnen de opdracht van het bedrijf.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 25,
+    "vraag": "Hoe moet de seniorgebruiker zijn verantwoordelijkheid vervullen voor de voortzetting van de realisatie van benefits post-project?",
+    "opties": {
+      "A": "Door het werk dat nodig is in een hiërarchie weer te geven om het project te helpen organiseren",
+      "B": "Door ervoor te zorgen dat de commitment van mensen in de gebruikersgemeenschap bij de adoptie van de nieuwe producten",
+      "C": "Door te definiëren hoe de voortdurende rechtvaardiging van het project kan worden geborgd",
+      "D": "Door te zorgen voor de technische integriteit van de projectproducten die worden geleverd aan de gebruikers"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. De seniorgebruiker zorgt voor commitment van de gebruikersgemeenschap voor adoptie van nieuwe producten. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 26,
+    "vraag": "Een nieuw teamlid heeft zich net bij het projectteam gevoegd en gaat op locatiebezoek. In welke stap van de techniek voor organisatieontwerp en -ontwikkeling moet dit gebeuren?",
+    "opties": {
+      "A": "Het projectecosysteem ontwikkelen",
+      "B": "Het organisatorisch ecosysteem begrijpen",
+      "C": "Het projectecosysteem ontwerpen",
+      "D": "De voortdurende wijzigingen in het projectecosysteem managen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het ontwikkelen van het projectecosysteem omvat het onboarden van nieuwe teamleden. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Organisatie",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 27,
+    "vraag": "Wat is het doel van de practice plannen?",
+    "opties": {
+      "A": "Om de projectmanager in staat te stellen het project te beheersen door te definiëren wie de producten gaat opleveren en wanneer ze opgeleverd moeten worden",
+      "B": "Om de projectopdrachtgever in staat te stellen om te monitoren of het project wenselijk, levensvatbaar en haalbaar is en moet worden voortgezet",
+      "C": "Om de projectopdrachtgever te laten definiëren welke rol in het projectmanagementteam verantwoordelijk is voor het produceren van het plan",
+      "D": "Om de projectmanager in staat te stellen te plannen hoe deze moet reageren op onzekerheden en wie de overeengekomen maatregelen moet uitvoeren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het doel van plannen is de projectmanager in staat te stellen het project te beheersen door te definiëren wie wat wanneer oplevert. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 28,
+    "vraag": "De bedrijfsstrategie is gewijzigd, waardoor de projectscope moet worden verhoogd tot buiten de toleranties die door de bedrijfslaag zijn overeengekomen. Welk plan moet worden gemaakt om deze wijziging op te nemen?",
+    "opties": {
+      "A": "Projectplan",
+      "B": "Faseplan",
+      "C": "Teamplan",
+      "D": "Afwijkingsplan"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Bij overschrijding van projecttoleranties moet het projectplan worden herzien. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 29,
+    "vraag": "Identificeer het ontbrekende woord in de volgende zin: Bij planning zijn er ten minste twee soorten [?] relevant voor een project: intern en extern.",
+    "opties": {
+      "A": "afhankelijkheid",
+      "B": "plannen",
+      "C": "afwijking",
+      "D": "scope"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Bij planning zijn er interne en externe afhankelijkheden relevant. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 30,
+    "vraag": "Hoe moet het projectplan een iteratief-incrementeel project ondersteunen?",
+    "opties": {
+      "A": "Door meerdere opleveringsfases te hebben waardoor acceptatiecriteria kunnen worden verfijnd naarmate de producten worden opgeleverd",
+      "B": "Door ervoor te zorgen dat de productbeschrijvingen voltooid zijn voordat het project wordt goedgekeurd door de stuurgroep",
+      "C": "Door het werk van de fase op te splitsen naar het detailniveau dat nodig is voor de dagelijkse beheersing door de projectmanager",
+      "D": "Door het project in twee fases te verdelen om iteratieve opleveringen van producten tijdens het project mogelijk te maken"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Bij iteratief-incrementele projecten kunnen acceptatiecriteria worden verfijnd naarmate producten worden opgeleverd. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 31,
+    "vraag": "De projectmanager moet de kwaliteitsverwachtingen van de gebruiker vastleggen. In welke stap van de planningstechniek moeten de verwachtingen worden vastgelegd?",
+    "opties": {
+      "A": "De producten definiëren en analyseren",
+      "B": "Werkpakketten organiseren",
+      "C": "Schattingen maken",
+      "D": "Een tijdsplanning opstellen"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Kwaliteitsverwachtingen worden vastgelegd bij het definiëren en analyseren van producten. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Plannen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 32,
+    "vraag": "Wat is een doel van de practice kwaliteit?",
+    "opties": {
+      "A": "Om beheersing mogelijk te maken door te definiëren hoe het project de producten zal opleveren om aan de business case te voldoen",
+      "B": "Om de vereisten van gebruikers vast te leggen en ervoor te zorgen dat ze onveranderd blijven gedurende het project",
+      "C": "Om te identificeren hoe het project ervoor zal zorgen dat aan de vereisten van gebruikers van de projectproducten wordt voldaan",
+      "D": "Om overeen te komen om producten op te leveren die geen deel uitmaakten van de zakelijke rechtvaardiging voor het project"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Het doel van kwaliteit is identificeren hoe het project ervoor zorgt dat aan gebruikersvereisten wordt voldaan. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 33,
+    "vraag": "De teammanager moet vastleggen dat een product getest moet worden, maar nog niet is goedgekeurd. Waar behoren deze gegevens vastgelegd te worden?",
+    "opties": {
+      "A": "Kwaliteitsregister",
+      "B": "Kwaliteitsspecificaties",
+      "C": "Productregister",
+      "D": "Projectproductbeschrijving"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het kwaliteitsregister legt de status van kwaliteitsactiviteiten vast, inclusief tests die nog moeten worden goedgekeurd. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 34,
+    "vraag": "Welke uitspraak beschrijft projectborging in plaats van kwaliteitsborging?",
+    "opties": {
+      "A": "Het verloopt onafhankelijk van de projectmanager, maar niet onafhankelijk van het project",
+      "B": "Het monitort de maatstaven voor kwaliteitsbeheersing van het project die worden gebruikt om de projectproducten te beoordelen",
+      "C": "Het is onafhankelijk van het projectteam en kan deel uitmaken van het kwaliteitsmanagementsysteem van de gebruiker",
+      "D": "Het beschrijft de vastgelegde verwachtingen voor de projectproducten"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Projectborging verloopt onafhankelijk van de projectmanager, maar niet onafhankelijk van het project. B. Onjuist. C. Onjuist - dit beschrijft kwaliteitsborging. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 35,
+    "vraag": "Een nieuwe vereiste wordt geïdentificeerd bij het produceren van een onderliggend plan. Hoe zou dit moeten worden gemanaged?",
+    "opties": {
+      "A": "Door nieuwe productbeschrijvingen op te stellen",
+      "B": "Door de issuemanagementaanpak te gebruiken",
+      "C": "Door de projectproductbeschrijving bij te werken",
+      "D": "Door de kwaliteitsmanagementaanpak bij te werken"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Nieuwe vereisten zijn wijzigingen en moeten via de issuemanagementaanpak worden gemanaged. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 36,
+    "vraag": "Een systeem is getest en de gebruiker moet het eigenaarschap op zich nemen over het systeem. In welke stap van de kwaliteitsmanagementtechniek moet dit gebeuren?",
+    "opties": {
+      "A": "Gebruikersinputs verzamelen",
+      "B": "Producten accepteren",
+      "C": "De kwaliteitsmanagementaanpak beschrijven",
+      "D": "Kwaliteit beheersen"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het overnemen van eigenaarschap gebeurt bij het accepteren van producten. C. Onjuist. D. Onjuist.",
+    "thema": "Kwaliteit",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 37,
+    "vraag": "Wat is het doel van de practice risico?",
+    "opties": {
+      "A": "Om de punten van zorg over standaarden die moeten worden toegepast op producten aan te pakken",
+      "B": "Om de waarschijnlijkheid dat een bedreiging zich voordoet en de mogelijke impact daarvan op het project te identificeren",
+      "C": "Om te garanderen dat de afgesproken scope op tijd, binnen de kosten en kwaliteit wordt opgeleverd",
+      "D": "Om ervoor te zorgen dat problemen worden opgelost voordat ze de kans krijgen een negatieve impact te hebben op het project"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het doel van risico is het identificeren van waarschijnlijkheid en impact van bedreigingen. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 38,
+    "vraag": "Wat biedt het projectmanagementteam een richtlijn voor het vastleggen van bedreigingen?",
+    "opties": {
+      "A": "Risicomanagementaanpak",
+      "B": "Risicoregister",
+      "C": "Digitale en gegevensmanagementaanpak",
+      "D": "Werkpakketbeschrijving"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De risicomanagementaanpak biedt richtlijnen voor het vastleggen van bedreigingen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 39,
+    "vraag": "Welke term beschrijft wie verantwoordelijk is voor het adequaat reageren op een risico?",
+    "opties": {
+      "A": "Risico-eigenaar",
+      "B": "Risico-actiehouder",
+      "C": "Projectsupport",
+      "D": "Projectborging"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De risico-eigenaar is verantwoordelijk voor het adequaat reageren op een risico. B. Onjuist - de actiehouder voert acties uit namens de eigenaar. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 40,
+    "vraag": "Hoe resulteert verliesaversie in minder effectieve besluitvorming bij het overwegen van risico's?",
+    "opties": {
+      "A": "Door de noodzaak om te houden wat je hebt te waarderen, in plaats van iets nieuws te krijgen",
+      "B": "Door het nadeel van het risico te verdisconteren, in de overtuiging dat alles volgens plan zal verlopen",
+      "C": "Door waarde te hechten aan de eenheid van het team in plaats van aan het nemen van de juiste beslissing",
+      "D": "Door risico's met een grotere kans om zich voor te doen, te zien als risicovoller"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Verliesaversie betekent dat men liever houdt wat men heeft dan iets nieuws krijgt. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 41,
+    "vraag": "De projectmanager moet de projectomgeving begrijpen en definiëren hoe het risico op het project gemanaged moet worden. In welke stap van de risicomanagementtechniek moet dit worden gedefinieerd?",
+    "opties": {
+      "A": "Identificeren",
+      "B": "Beoordelen",
+      "C": "Plannen",
+      "D": "Implementeren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. In de identificatiestap wordt de projectomgeving begrepen en wordt gedefinieerd hoe risico wordt gemanaged. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Risico",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 42,
+    "vraag": "Hoe draagt de practice issues bij aan een succesvol project?",
+    "opties": {
+      "A": "Door gebeurtenissen te identificeren die een positieve impact kunnen hebben op de projectdoelstellingen",
+      "B": "Door aanpassingen aan de huidige goedgekeurde versies van de managementproducten te beheersen",
+      "C": "Door het vereiste goedkeuringsniveau aan te passen aan de verwachtingen van de gebruiker",
+      "D": "Door de onzekere situatie zeker te maken door de oorzaak aan te pakken"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Issues helpt door gebeurtenissen te identificeren die impact kunnen hebben. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 43,
+    "vraag": "Projectsupport moet begrijpen hoe wijzigingen kunnen worden aangebracht in goedgekeurde versies van de projectproducten. Welk managementproduct moet projectsupport reviewen?",
+    "opties": {
+      "A": "Issuemanagementaanpak",
+      "B": "Risicomanagementaanpak",
+      "C": "Benefitsmanagementaanpak",
+      "D": "Kwaliteitsmanagementaanpak"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. De issuemanagementaanpak beschrijft hoe wijzigingen worden aangebracht. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 44,
+    "vraag": "Wat is de definitie van een issue?",
+    "opties": {
+      "A": "Een voor het project relevante gebeurtenis waar het projectmanagement rekening mee moet houden",
+      "B": "Een onzekere gebeurtenis of verzameling gebeurtenissen die, als die zou plaatsvinden, effect zou hebben op het project",
+      "C": "Een beschrijving van de impact die een onzekere gebeurtenis zou hebben op de doelstellingen",
+      "D": "Een meetbare drempel om het aanvaardbare bereik van eindresultaten weer te geven voor elke geraakte doelstelling"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een issue is een voor het project relevante gebeurtenis waar het projectmanagement rekening mee moet houden. B. Onjuist - dit is een risico. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 45,
+    "vraag": "Een wijziging is goedgekeurd en moet worden doorgevoerd. Welk deel van de richtlijnen voor effectief issuemanagement moet het doorvoeren van de wijziging mogelijk maken?",
+    "opties": {
+      "A": "Het gedelegeren van bevoegdheden naar het juiste niveau door de stuurgroep om te beslissen over wijzigingen",
+      "B": "De toepassing van het wijzigingsbudget binnen de toegestane beperkingen om afwegingen te maken",
+      "C": "De audit of de werkelijke status van het product overeenkomt met de status die is vastgelegd in het productregister",
+      "D": "De definitie van het juiste niveau waarop de producten moeten worden gebaselined"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het wijzigingsbudget maakt het doorvoeren van goedgekeurde wijzigingen mogelijk. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 46,
+    "vraag": "Er is een issue geïdentificeerd en de impact daarvan op de projectscope moet worden begrepen. In welke stap van de issuemanagementtechniek moet de impact worden begrepen?",
+    "opties": {
+      "A": "Issues beoordelen",
+      "B": "Issues verzamelen",
+      "C": "Beslissen over wijzigingen",
+      "D": "Wijzigingen doorvoeren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. In de stap Issues beoordelen wordt de impact op de projectscope begrepen. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Wijziging",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 47,
+    "vraag": "Wat is het doel van de practice voortgang?",
+    "opties": {
+      "A": "Om te voorspellen of de fase op koers ligt om op tijd en binnen budget te worden opgeleverd",
+      "B": "Om informatie vast te leggen zodat fouten uit het verleden door dit project of andere projecten kunnen worden vermeden",
+      "C": "Om te beslissen wat te doen met een product dat niet voldoet aan kwaliteitsspecificaties",
+      "D": "Om ervoor te zorgen dat aan de kwaliteitsverwachtingen van de gebruiker wordt voldaan bij het opleveringen van de output"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het doel van voortgang is voorspellen of de fase op koers ligt. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 48,
+    "vraag": "Wat moet de stuurgroep reviewen bij het nemen van de beslissing over wat er nu met het project moet gebeuren?",
+    "opties": {
+      "A": "Digitale en gegevensmanagementaanpak",
+      "B": "Fase-eindrapport",
+      "C": "Hoofdpuntenrapport",
+      "D": "Checkpointrapport"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Het fase-eindrapport wordt door de stuurgroep gereviewd voor beslissingen over het project. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 49,
+    "vraag": "Wat is de definitie van een afwijking?",
+    "opties": {
+      "A": "Een prognose dat de afgesproken tolerantieniveaus overschreden zullen worden",
+      "B": "Een onzekere gebeurtenis die, als die zou plaatsvinden, effect zou hebben op het behalen van doelstellingen",
+      "C": "Een product dat niet voldoet aan de kwaliteitsspecificaties",
+      "D": "Een rapport aan de projectmanager over de status van het werkpakket"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Een afwijking is een prognose dat tolerantieniveaus overschreden zullen worden. B. Onjuist - dit is een risico. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 50,
+    "vraag": "Hoe moet het gebruik van gegevens en systemen effectief voortgangsmanagement ondersteunen?",
+    "opties": {
+      "A": "Door de inspanningen van het projectmanagementteam te richten op het verzamelen van gegevens over wat er in het verleden is gebeurd",
+      "B": "Door nauwkeurige gegevens te verstrekken die helpen bij het voorspellen van de toekomstige projectprestaties",
+      "C": "Door de inspanningen van het projectmanagementteam te richten op handmatige gegevensverzameling",
+      "D": "Door de toleranties ten opzichte van de zeven prestatiedoelen voor elk managementniveau te definiëren"
+    },
+    "correct": "B",
+    "uitleg": "A. Onjuist. B. Juist. Gegevens en systemen moeten nauwkeurige gegevens verstrekken voor het voorspellen van toekomstige prestaties. C. Onjuist. D. Onjuist.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 51,
+    "vraag": "Op welk niveau is volgens de managementtechniek voor afwijkingen de kans HET GROOTST dat projecten issues identificeren die de fasetoleranties overschrijden?",
+    "opties": {
+      "A": "Opdrachtgeven EN sturen",
+      "B": "Sturen EN managen",
+      "C": "Sturen EN opleveren",
+      "D": "Managen EN opleveren"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Op het niveau van managen en opleveren is de kans het grootst dat issues worden geïdentificeerd die fasetoleranties overschrijden.",
+    "thema": "Voortgang",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 52,
+    "vraag": "Wat is een doel van het proces 'opstarten van een project'?",
+    "opties": {
+      "A": "Om te beoordelen of een project waarschijnlijk waardevol is voor de organisatie",
+      "B": "Om het werk te analyseren dat nodig is voordat de projectinitiatiedocumentie wordt geïmplementeerd",
+      "C": "Om de gebruikers de kans te geven om te bevestigen dat ze het projectproduct accepteren",
+      "D": "Om het management van het project op een beheerste manier te gedelegeren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het doel van opstarten is beoordelen of een project waarschijnlijk waardevol is. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 53,
+    "vraag": "Welk proces moet zeker stellen dat een organisatie niet overgaat tot het vaststellen van solide fundamenten voor ongeschikte projecten?",
+    "opties": {
+      "A": "Opstarten van een project",
+      "B": "Sturen van een project",
+      "C": "Initiëren van een project",
+      "D": "Managen van een faseovergang"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Opstarten van een project stelt zeker dat ongeschikte projecten niet worden geïnitieerd. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 54,
+    "vraag": "Wat is een doel van het proces 'sturen van een project'?",
+    "opties": {
+      "A": "Om eindverantwoordelijkheid van de stuurgroep te behouden en het gedetailleerde management te delegeren",
+      "B": "Om te voorkomen dat de organisatie projecten uitvoert met een slechte rechtvaardiging",
+      "C": "Om het werk van een fase te managen door effectieve corrigerende maatregelen te implementeren",
+      "D": "Om informatie te verstrekken zodat de opdrachtgevende autoriteit zich kan committeren aan de oplevering van het project"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Sturen van een project behoudt eindverantwoordelijkheid van de stuurgroep en delegeert gedetailleerd management. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 55,
+    "vraag": "Welke TWEE zijn doelstellingen van het proces 'beheersen van een fase'? 1. Om er voor te zorgen dat er geen onbeheerste veranderingen zijn in de producten die door de stuurgroep zijn overeengekomen 2. Om ervoor te zorgen dat de stuurgroep er zeker van kan zijn dat alle producten in faseplan zijn afgerond 3. Om er voor te zorgen dat de projectinitiatiedocumentatie wordt bijgewerkt met alle kwaliteitswijzigingen die nodig zijn voor de volgende projectfase 4. Om ervoor te zorgen dat de in de fase geleverde producten voldoen aan de overeengekomen kwaliteitscriteria",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "D",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Onjuist. D. Juist. Doelstellingen 1 en 4 zijn doelstellingen van beheersen van een fase.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 56,
+    "vraag": "Welke TWEE zijn doelstellingen van het proces sturen van een project? 1. Om er voor te zorgen dat het project alleen wordt afgesloten met de juiste autorisatie 2. Om er voor te zorgen dat post-project benefitsreviews gepland zijn 3. Om er voor te zorgen dat het bedrijf klaar is om de producten te gebruiken na het afsluiten van het project 4. Om er voor te zorgen dat gebruikers het projectproduct hebben geaccepteerd",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Doelstellingen 1 en 2 zijn doelstellingen van sturen van een project. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 57,
+    "vraag": "Welke TWEE zijn doelstellingen van het proces 'initiëren van een project'? 1. Om er voor te zorgen dat het projectteam zich richt op het leveren van de goedgekeurde producten in faseplan 2. Om er voor te zorgen dat het projectteam bevoegd is om verder te gaan naar de initiatiefase 3. Om te begrijpen hoe wijzigingen in de overeengekomen projectproducten worden goedgekeurd 4. Om een planning en de schattingen te maken van de kosten voor het werk om de producten op te leveren",
+    "opties": {
+      "A": "1 en 2",
+      "B": "2 en 3",
+      "C": "3 en 4",
+      "D": "1 en 4"
+    },
+    "correct": "C",
+    "uitleg": "A. Onjuist. B. Onjuist. C. Juist. Doelstellingen 3 en 4 zijn doelstellingen van initiëren van een project. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 58,
+    "vraag": "Welke activiteit kan ALLEEN worden uitgevoerd in het proces 'managen van een faseovergang'?",
+    "opties": {
+      "A": "Het voorbereiden van een vervanging voor het huidige faseplan ter goedkeuring door de stuurgroep",
+      "B": "Het voortdurend reviewen van de zakelijke rechtvaardiging aan de hand van de business case",
+      "C": "Het regelmatig rapporteren van de voortgang van een fase aan de stuurgroep",
+      "D": "Het voorbereiden van een voortijdige afsluiting van het project na sturing door de stuurgroep"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het voorbereiden van een vervanging voor het huidige faseplan gebeurt alleen in managen van een faseovergang. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 59,
+    "vraag": "Wat is er nodig om het proces 'managen van een faseovergang' uit te voeren?",
+    "opties": {
+      "A": "Het werk van het project moet worden opgedeeld in secties",
+      "B": "Elke projectfase moet incrementeel projectbenefits opleveren",
+      "C": "Het project moet een voorspelbare einddatum hebben",
+      "D": "Elke fase moet in afwijking zijn"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Het project moet in fasen (secties) worden opgedeeld om faseovergangen te hebben. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  },
+  {
+    "id": 60,
+    "vraag": "Welke actie moet worden ondernomen als een project voortijdig wordt afgesloten?",
+    "opties": {
+      "A": "De projectmanager moet nog steeds het proces 'afsluiten van een project' gebruiken om met de situatie om te gaan",
+      "B": "De projectmanager moet er voor zorgen dat er geen extra werk wordt uitgevoerd voordat het project wordt afgesloten",
+      "C": "De projectmanager moet het voortijdig afsluiten triggeren als de business case niet meer geldig is",
+      "D": "De stuurgroep moet het gebruik van het resterende projectbudget voor de financiering van operationele kosten goedkeuren"
+    },
+    "correct": "A",
+    "uitleg": "A. Juist. Bij voortijdige afsluiting moet nog steeds het proces afsluiten van een project worden gebruikt. B. Onjuist. C. Onjuist. D. Onjuist.",
+    "thema": "Processen",
+    "bron": "proefexamen7"
+  }
+]
