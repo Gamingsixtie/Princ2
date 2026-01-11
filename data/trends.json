@@ -1,0 +1,328 @@
+{
+  "secties": [
+    {
+      "id": "gewicht",
+      "titel": "Examenverdeling",
+      "icon": "📊",
+      "beschrijving": "Waar liggen de meeste punten?",
+      "items": [
+        {
+          "titel": "Practices domineren het examen (60%)",
+          "inhoud": "Van de 60 vragen gaan er ~36 over practices. Dit is waar je de meeste punten haalt! Focus vooral op: Issues, Risico, Kwaliteit, Plannen en Voortgang.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Processen (15%)",
+          "inhoud": "~9 vragen over de 7 processen. Let op: welk proces doet wat, en wie is verantwoordelijk in welk proces.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Mensen (14%)",
+          "inhoud": "~8 vragen over rollen, verantwoordelijkheden, leiderschap en verandermanagement.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Principes (8%)",
+          "inhoud": "~5 vragen over de 7 principes. Ken ze allemaal, maar focus op toepassing in scenario's.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Concepten (3%)",
+          "inhoud": "~2 vragen over basisbegrippen. Makkelijke punten als je de definities kent!",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "veelgesteld",
+      "titel": "Meest Geteste Onderwerpen",
+      "icon": "🎯",
+      "beschrijving": "Deze onderwerpen komen het vaakst terug",
+      "items": [
+        {
+          "titel": "Business Case & Benefits",
+          "inhoud": "Extreem vaak getest! Ken het verschil tussen: output → eindresultaat → benefit. Wie is eigenaar van de business case? (projectopdrachtgever). Wanneer wordt deze gemaakt/bijgewerkt?",
+          "belangrijk": true
+        },
+        {
+          "titel": "Rollen en Verantwoordelijkheden",
+          "inhoud": "Stuurgroep vs projectmanager vs teammanager. Wie doet wat? Projectborging vs projectsupport (borging kan NIET gedelegeerd worden!).",
+          "belangrijk": true
+        },
+        {
+          "titel": "Rapportages - Wie naar Wie",
+          "inhoud": "Checkpointrapport: teammanager → projectmanager. Hoofdpuntenrapport: projectmanager → stuurgroep. Dit wordt HEEL vaak getest!",
+          "belangrijk": true
+        },
+        {
+          "titel": "Toleranties en Afwijkingen",
+          "inhoud": "Wat is een tolerantie? Wat gebeurt er als toleranties worden overschreden? (afwijkingsrapport, afwijkingsplan)",
+          "belangrijk": true
+        },
+        {
+          "titel": "3 Typen Issues",
+          "inhoud": "Probleem/punt van zorg, wijzigingsverzoek, afwijking van specificatie. Ken de verschillen!",
+          "belangrijk": false
+        },
+        {
+          "titel": "Risico vs Issue",
+          "inhoud": "Risico = onzeker, nog niet gebeurd. Issue = al gebeurd, moet worden aangepakt. Bedreiging vs kans = beide zijn risico's!",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "valkuilen",
+      "titel": "Veelgemaakte Fouten",
+      "icon": "⚠️",
+      "beschrijving": "Hier gaan de meeste kandidaten de mist in",
+      "items": [
+        {
+          "titel": "Projectborging vs Projectsupport verwarren",
+          "inhoud": "PROJECTBORGING: onafhankelijk van projectmanager, kan NIET gedelegeerd worden, namens stuurgroep. PROJECTSUPPORT: ondersteunt projectmanager, kan WEL gedelegeerd worden.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Projectopdrachtgever vs Seniorgebruiker",
+          "inhoud": "Projectopdrachtgever = eigenaar business case, voorzitter stuurgroep, eindverantwoordelijk. Seniorgebruiker = vertegenwoordigt gebruikers, specificeert benefits, zorgt voor adoptie.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Faseplan vs Projectplan verwarren",
+          "inhoud": "Projectplan = hoofdlijnen hele project. Faseplan = gedetailleerd voor één fase. Teamplan = werkpakket niveau (optioneel).",
+          "belangrijk": false
+        },
+        {
+          "titel": "Output vs Eindresultaat vs Benefit",
+          "inhoud": "Output = tastbaar product. Eindresultaat (outcome) = verandering in gedrag/situatie. Benefit = meetbare verbetering. Deze volgorde!",
+          "belangrijk": true
+        },
+        {
+          "titel": "Kwaliteitsborging vs Kwaliteitsbeheersing",
+          "inhoud": "Kwaliteitsborging (QA) = onafhankelijk, controleert processen/standaarden. Kwaliteitsbeheersing (QC) = controleert producten zelf.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Minimaal 2 managementfases vergeten",
+          "inhoud": "Elk PRINCE2-project heeft MINIMAAL 2 fases: initiatiefase + minimaal 1 opleveringsfase. Dit wordt vaak getest!",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "patronen",
+      "titel": "Vraagpatronen Herkennen",
+      "icon": "🔍",
+      "beschrijving": "Zo zijn de examenvragen opgebouwd",
+      "items": [
+        {
+          "titel": "Scenario + 'Welk principe wordt toegepast?'",
+          "inhoud": "Zeer veel voorkomend! Je krijgt een situatie en moet het juiste principe kiezen. Tip: zoek naar kernwoorden in het scenario die bij een principe passen.",
+          "belangrijk": true
+        },
+        {
+          "titel": "'In welke stap van [techniek] moet dit gebeuren?'",
+          "inhoud": "Frequent voor: planningstechniek, risicomanagementtechniek, issuemanagementtechniek, kwaliteitsmanagementtechniek. Ken de stappen!",
+          "belangrijk": true
+        },
+        {
+          "titel": "'Welk managementproduct moet worden gebruikt/gereviewed?'",
+          "inhoud": "Test of je weet welk document voor welk doel. Tip: ken de doelen van elk managementproduct.",
+          "belangrijk": false
+        },
+        {
+          "titel": "'Wat is een doel van practice [X]?'",
+          "inhoud": "Ken de hoofddoelen van elke practice. Let op: ze geven vaak doelen van andere practices als foute antwoorden!",
+          "belangrijk": false
+        },
+        {
+          "titel": "'Welke TWEE zijn...' vragen",
+          "inhoud": "~10-15% van de vragen. Analyseer elke stelling apart. Vaak zijn 2 duidelijk fout, waardoor de keuze makkelijker wordt.",
+          "belangrijk": false
+        },
+        {
+          "titel": "NIET/GEEN vragen",
+          "inhoud": "Let goed op! Je zoekt het FOUTE antwoord. 3 van de 4 opties zijn correct. Markeer 'NIET' als je de vraag leest.",
+          "belangrijk": true
+        }
+      ]
+    },
+    {
+      "id": "sleutelwoorden",
+      "titel": "Sleutelwoorden in Vragen",
+      "icon": "🔑",
+      "beschrijving": "Deze woorden wijzen naar het juiste antwoord",
+      "items": [
+        {
+          "titel": "'zakelijke rechtvaardiging' / 'waardevol' / 'doorgaan'",
+          "inhoud": "→ Principe: Voortdurende zakelijke rechtvaardiging, of Practice: Business Case",
+          "belangrijk": false
+        },
+        {
+          "titel": "'ervaringen' / 'leerpunten' / 'vorige projecten'",
+          "inhoud": "→ Principe: Leren van ervaringen",
+          "belangrijk": false
+        },
+        {
+          "titel": "'toleranties' / 'escaleren' / 'grenzen'",
+          "inhoud": "→ Principe: Manage by exception, of Practice: Voortgang",
+          "belangrijk": false
+        },
+        {
+          "titel": "'producten' / 'kwaliteit' / 'specificaties'",
+          "inhoud": "→ Principe: Focussen op producten, of Practice: Kwaliteit",
+          "belangrijk": false
+        },
+        {
+          "titel": "'fase' / 'faseovergang' / 'beslispunt'",
+          "inhoud": "→ Principe: Managen per fase, of Proces: Managen van een faseovergang",
+          "belangrijk": false
+        },
+        {
+          "titel": "'aanpassen' / 'omgeving' / 'complexiteit'",
+          "inhoud": "→ Principe: Op maat maken voor het project",
+          "belangrijk": false
+        },
+        {
+          "titel": "'onzekerheid' / 'bedreiging' / 'kans'",
+          "inhoud": "→ Practice: Risico",
+          "belangrijk": false
+        },
+        {
+          "titel": "'wijziging' / 'baseline' / 'goedkeuring'",
+          "inhoud": "→ Practice: Issues",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "getallen",
+      "titel": "Getallen om te Onthouden",
+      "icon": "🔢",
+      "beschrijving": "Deze getallen worden vaak getest",
+      "items": [
+        {
+          "titel": "7 Principes",
+          "inhoud": "Voortdurende zakelijke rechtvaardiging, Leren van ervaringen, Gedefinieerde rollen/verantwoordelijkheden, Managen per fase, Manage by exception, Focussen op producten, Op maat maken",
+          "belangrijk": true
+        },
+        {
+          "titel": "7 Practices",
+          "inhoud": "Business Case, Organisatie, Kwaliteit, Plannen, Risico, Issues, Voortgang",
+          "belangrijk": true
+        },
+        {
+          "titel": "7 Processen",
+          "inhoud": "Opstarten, Sturen, Initiëren, Beheersen van een fase, Managen van productoplevering, Managen van een faseovergang, Afsluiten",
+          "belangrijk": true
+        },
+        {
+          "titel": "7 Prestatieaspecten",
+          "inhoud": "Kosten, Tijd, Kwaliteit, Scope, Benefits, Risico, Duurzaamheid",
+          "belangrijk": true
+        },
+        {
+          "titel": "5 Geïntegreerde elementen",
+          "inhoud": "Principes, Mensen, Practices, Processen, Projectcontext",
+          "belangrijk": false
+        },
+        {
+          "titel": "4 Managementniveaus",
+          "inhoud": "Bedrijfslaag → Stuurgroep → Projectmanager → Teammanager",
+          "belangrijk": false
+        },
+        {
+          "titel": "3 Belangen in stuurgroep",
+          "inhoud": "Bedrijf, Gebruiker, Leverancier",
+          "belangrijk": false
+        },
+        {
+          "titel": "3 Typen issues",
+          "inhoud": "Probleem/punt van zorg, Wijzigingsverzoek, Afwijking van specificatie",
+          "belangrijk": false
+        },
+        {
+          "titel": "2 Minimaal aantal fases",
+          "inhoud": "Initiatiefase + minimaal 1 opleveringsfase",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "foute_antwoorden",
+      "titel": "Herken Foute Antwoorden",
+      "icon": "❌",
+      "beschrijving": "Zo herken je afleidende opties",
+      "items": [
+        {
+          "titel": "Te absoluut taalgebruik",
+          "inhoud": "Woorden als 'altijd', 'nooit', 'alle', 'geen enkele' zijn vaak FOUT. PRINCE2 is flexibel en contextafhankelijk.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Verkeerde rol genoemd",
+          "inhoud": "Let op: antwoord klinkt goed maar noemt verkeerde rol. Bijv. 'projectmanager autoriseert project' (moet stuurgroep zijn).",
+          "belangrijk": true
+        },
+        {
+          "titel": "Juiste concept, verkeerde practice",
+          "inhoud": "Antwoord beschrijft iets dat bestaat, maar hoort bij andere practice. Bijv. doel van Kwaliteit als antwoord bij vraag over Risico.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Dagelijkse bedrijfsvoering vs project",
+          "inhoud": "Antwoorden die typisch zijn voor dagelijkse operaties ipv projecten zijn meestal fout.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Alleen aan het einde vs doorlopend",
+          "inhoud": "Let op of iets doorlopend moet (business case reviewen) of alleen op specifieke momenten.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Omgekeerde rapportagelijn",
+          "inhoud": "Check: gaat het rapport de goede kant op? Teammanager → PM → Stuurgroep (niet andersom!).",
+          "belangrijk": false
+        }
+      ]
+    },
+    {
+      "id": "laatste_tips",
+      "titel": "Laatste Examentips",
+      "icon": "💡",
+      "beschrijving": "Net voor je examen",
+      "items": [
+        {
+          "titel": "Lees de vraag TWEE keer",
+          "inhoud": "Vooral bij scenario-vragen. De vraag staat vaak aan het einde. Focus op WAT er gevraagd wordt.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Let op 'NIET' en 'GEEN'",
+          "inhoud": "Markeer deze woorden fysiek of mentaal. Bij NIET-vragen zijn 3 van 4 antwoorden correct!",
+          "belangrijk": true
+        },
+        {
+          "titel": "Eerste instinct is vaak goed",
+          "inhoud": "Als je twijfelt, ga voor je eerste keuze. Alleen wijzigen als je ZEKER weet dat het fout is.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Sla moeilijke vragen over",
+          "inhoud": "Besteed max 1,5 minuut per vraag. Markeer en kom later terug. Haal eerst de makkelijke punten.",
+          "belangrijk": true
+        },
+        {
+          "titel": "Controleer je antwoorden",
+          "inhoud": "Als je tijd over hebt: check vooral de NIET-vragen en scenario-vragen nog een keer.",
+          "belangrijk": false
+        },
+        {
+          "titel": "Denk als PRINCE2",
+          "inhoud": "Het examen test PRINCE2-kennis, niet praktijkervaring. Kies het PRINCE2-antwoord, niet wat jij zou doen.",
+          "belangrijk": true
+        }
+      ]
+    }
+  ]
+}

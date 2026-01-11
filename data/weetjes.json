@@ -1,0 +1,260 @@
+{
+  "categorieen": [
+    {
+      "id": "examenstrategie",
+      "titel": "Examenstrategie",
+      "icon": "target",
+      "items": [
+        {
+          "titel": "Examenformat",
+          "inhoud": "60 vragen, 60 minuten, 60% nodig om te slagen (36 van 60 vragen correct)"
+        },
+        {
+          "titel": "Tijdverdeling",
+          "inhoud": "Gemiddeld 1 minuut per vraag. Besteed niet te lang aan moeilijke vragen - markeer ze en kom later terug."
+        },
+        {
+          "titel": "Negatieve vragen",
+          "inhoud": "Let op woorden als NIET, GEEN, ONJUIST. Lees deze vragen extra zorgvuldig - je zoekt het foute antwoord!"
+        },
+        {
+          "titel": "Lijstvragen",
+          "inhoud": "Bij 'Welke TWEE zijn...' vragen: elimineer eerst de duidelijk foute opties, dan blijven vaak 2 over."
+        },
+        {
+          "titel": "Ontbrekend woord",
+          "inhoud": "Lees de zin met elk antwoord erin. Vaak klinkt maar één optie logisch in de context."
+        }
+      ]
+    },
+    {
+      "id": "principes",
+      "titel": "7 Principes",
+      "icon": "star",
+      "items": [
+        {
+          "titel": "1. Voortdurende zakelijke rechtvaardiging",
+          "inhoud": "Een project moet altijd een geldige reden hebben om door te gaan. Geen rechtvaardiging = project stoppen."
+        },
+        {
+          "titel": "2. Leren van ervaringen",
+          "inhoud": "Gebruik leerpunten van vorige projecten, leg nieuwe ervaringen vast, en deel ze na afloop."
+        },
+        {
+          "titel": "3. Gedefinieerde rollen en verantwoordelijkheden",
+          "inhoud": "Duidelijke structuur met bedrijf, gebruiker en leverancier belangen vertegenwoordigd in stuurgroep."
+        },
+        {
+          "titel": "4. Managen per fase",
+          "inhoud": "Project opgedeeld in managementfases. Minimaal 2: initiatiefase + minimaal 1 opleveringsfase."
+        },
+        {
+          "titel": "5. Manage by exception",
+          "inhoud": "Toleranties bepalen wanneer escalatie nodig is. Binnen toleranties = zelf beslissen."
+        },
+        {
+          "titel": "6. Focussen op producten",
+          "inhoud": "Duidelijke productbeschrijvingen met kwaliteitscriteria. Producten centraal, niet activiteiten."
+        },
+        {
+          "titel": "7. Op maat maken",
+          "inhoud": "PRINCE2 aanpassen aan projectgrootte, complexiteit, risico en omgeving. Altijd maatwerk!"
+        }
+      ]
+    },
+    {
+      "id": "practices",
+      "titel": "7 Practices",
+      "icon": "book",
+      "items": [
+        {
+          "titel": "1. Business Case",
+          "inhoud": "Waarom doen we dit project? Kosten, baten, risico's, tijdlijn. Eigenaar: projectopdrachtgever."
+        },
+        {
+          "titel": "2. Organisatie",
+          "inhoud": "Wie doet wat? Stuurgroep, projectmanager, teammanager, projectborging, projectsupport."
+        },
+        {
+          "titel": "3. Kwaliteit",
+          "inhoud": "Hoe zorgen we dat producten goed zijn? Kwaliteitsverwachtingen, specificaties, controles."
+        },
+        {
+          "titel": "4. Plannen",
+          "inhoud": "Wat, wanneer, hoeveel? Projectplan (hoofdlijnen), faseplan (detail), teamplan (uitvoering)."
+        },
+        {
+          "titel": "5. Risico",
+          "inhoud": "Wat kan misgaan/goed gaan? Identificeren, beoordelen, plannen, implementeren, communiceren."
+        },
+        {
+          "titel": "6. Issues",
+          "inhoud": "Wat is er gebeurd? 3 typen: probleem/punt van zorg, wijzigingsverzoek, afwijking van specificatie."
+        },
+        {
+          "titel": "7. Voortgang",
+          "inhoud": "Liggen we op schema? Toleranties, rapportages, afwijkingen, beslispunten."
+        }
+      ]
+    },
+    {
+      "id": "processen",
+      "titel": "7 Processen",
+      "icon": "flow",
+      "items": [
+        {
+          "titel": "1. Opstarten van een project",
+          "inhoud": "Pre-project: Is dit project de moeite waard? Output: projectvoorstel, business case op hoofdlijnen."
+        },
+        {
+          "titel": "2. Sturen van een project",
+          "inhoud": "Stuurgroep beslist: autoriseren, ad-hoc sturing geven, project afsluiten. Loopt door hele project."
+        },
+        {
+          "titel": "3. Initiëren van een project",
+          "inhoud": "Fundament leggen: PID maken met alle aanpakken, gedetailleerde business case, projectplan."
+        },
+        {
+          "titel": "4. Beheersen van een fase",
+          "inhoud": "Dagelijks werk projectmanager: werkpakketten uitgeven, voortgang bewaken, issues oplossen."
+        },
+        {
+          "titel": "5. Managen van productoplevering",
+          "inhoud": "Teammanager: werkpakket accepteren, werk uitvoeren, producten opleveren aan projectmanager."
+        },
+        {
+          "titel": "6. Managen van een faseovergang",
+          "inhoud": "Einde fase: volgende fase plannen, PID bijwerken, fase-eindrapport, goedkeuring vragen."
+        },
+        {
+          "titel": "7. Afsluiten van een project",
+          "inhoud": "Netjes afsluiten: acceptatie, overdracht, evaluatie, aanbevelingen, projecteindrapport."
+        }
+      ]
+    },
+    {
+      "id": "rollen",
+      "titel": "Belangrijke Rollen",
+      "icon": "users",
+      "items": [
+        {
+          "titel": "Projectopdrachtgever (Executive)",
+          "inhoud": "Voorzitter stuurgroep, eigenaar business case, eindverantwoordelijk voor succes project."
+        },
+        {
+          "titel": "Seniorgebruiker (Senior User)",
+          "inhoud": "Vertegenwoordigt gebruikers, specificeert behoeften, zorgt voor benefits na project."
+        },
+        {
+          "titel": "Seniorleverancier (Senior Supplier)",
+          "inhoud": "Vertegenwoordigt leveranciers, levert resources, zorgt voor technische integriteit."
+        },
+        {
+          "titel": "Projectmanager",
+          "inhoud": "Dagelijks management, binnen toleranties, rapporteert aan stuurgroep."
+        },
+        {
+          "titel": "Teammanager",
+          "inhoud": "Leidt team, accepteert werkpakketten, levert producten op, rapporteert aan projectmanager."
+        },
+        {
+          "titel": "Projectborging (Project Assurance)",
+          "inhoud": "Onafhankelijk van projectmanager, monitort namens stuurgroep, kan niet gedelegeerd worden."
+        },
+        {
+          "titel": "Projectsupport",
+          "inhoud": "Administratieve ondersteuning, kan wel gedelegeerd worden, ondersteunt projectmanager."
+        }
+      ]
+    },
+    {
+      "id": "rapporten",
+      "titel": "Rapportages",
+      "icon": "document",
+      "items": [
+        {
+          "titel": "Checkpointrapport",
+          "inhoud": "VAN teammanager NAAR projectmanager. Status werkpakket. Frequentie in werkpakket afgesproken."
+        },
+        {
+          "titel": "Hoofdpuntenrapport (Highlight Report)",
+          "inhoud": "VAN projectmanager NAAR stuurgroep. Status fase. Regelmatige frequentie (vaak wekelijks/maandelijks)."
+        },
+        {
+          "titel": "Fase-eindrapport (End Stage Report)",
+          "inhoud": "Einde van elke fase. Samenvatting prestaties, basis voor go/no-go beslissing stuurgroep."
+        },
+        {
+          "titel": "Projecteindrapport (End Project Report)",
+          "inhoud": "Einde project. Vergelijking plan vs. werkelijkheid, leerpunten, aanbevelingen."
+        },
+        {
+          "titel": "Afwijkingsrapport (Exception Report)",
+          "inhoud": "Wanneer toleranties overschreden worden. Beschrijft situatie, opties, aanbeveling."
+        }
+      ]
+    },
+    {
+      "id": "vraagtypen",
+      "titel": "Vraagtypen Herkennen",
+      "icon": "question",
+      "items": [
+        {
+          "titel": "Standaard vraag",
+          "inhoud": "Directe vraag met 4 opties. Tip: lees alle opties voordat je kiest, elimineer duidelijk foute eerst."
+        },
+        {
+          "titel": "Negatieve vraag (NIET/GEEN)",
+          "inhoud": "Vraagt naar het FOUTE antwoord. Herken aan: 'Wat is GEEN...', 'Welke is NIET...'. 3 opties zijn correct!"
+        },
+        {
+          "titel": "Ontbrekend woord vraag",
+          "inhoud": "Zin met [?] die je moet invullen. Tip: lees de hele zin met elk antwoord, één past het beste."
+        },
+        {
+          "titel": "Lijst vraag (Welke TWEE)",
+          "inhoud": "4 stellingen, 2 zijn correct. Antwoorden zijn combinaties (1 en 2, 2 en 3, etc.). Analyseer elke stelling apart."
+        },
+        {
+          "titel": "Scenario vraag",
+          "inhoud": "Situatieschets gevolgd door vraag. Tip: identificeer de kernvraag, negeer afleidende details."
+        },
+        {
+          "titel": "Principe/Practice/Proces vraag",
+          "inhoud": "Vraagt welk principe/practice/proces van toepassing is. Ken de kernfuncties van elk!"
+        }
+      ]
+    },
+    {
+      "id": "essentie",
+      "titel": "PRINCE2 Essentie",
+      "icon": "lightbulb",
+      "items": [
+        {
+          "titel": "5 Geïntegreerde elementen",
+          "inhoud": "Principes, Mensen, Practices, Processen, Projectcontext - samen vormen ze PRINCE2."
+        },
+        {
+          "titel": "7 Prestatieaspecten",
+          "inhoud": "Kosten, Tijd, Kwaliteit, Scope, Benefits, Risico, Duurzaamheid - hierop worden toleranties gesteld."
+        },
+        {
+          "titel": "3 Belangen in stuurgroep",
+          "inhoud": "Bedrijf (business case), Gebruiker (behoeften), Leverancier (resources) - alle 3 vertegenwoordigd."
+        },
+        {
+          "titel": "4 Managementniveaus",
+          "inhoud": "Bedrijfslaag → Stuurgroep → Projectmanager → Teammanager. Elk niveau heeft eigen toleranties."
+        },
+        {
+          "titel": "3 Typen issues",
+          "inhoud": "Probleem/punt van zorg, Wijzigingsverzoek, Afwijking van specificatie."
+        },
+        {
+          "titel": "Bedreiging vs Kans",
+          "inhoud": "Bedreiging = negatieve onzekerheid. Kans = positieve onzekerheid. Beide zijn risico's!"
+        }
+      ]
+    }
+  ]
+}
