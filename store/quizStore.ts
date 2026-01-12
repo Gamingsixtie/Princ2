@@ -29,10 +29,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       ? alleVragen
       : alleVragen.filter(v => v.bron === examen);
 
-    // Additional filter by theme if provided
+    // Additional filter by theme if provided (exact match)
     if (themaFilter && themaFilter.length > 0) {
       gefiltrerdeVragen = gefiltrerdeVragen.filter(v =>
-        themaFilter.some(t => v.thema.toLowerCase().includes(t.toLowerCase()))
+        themaFilter.includes(v.thema)
       );
     }
 

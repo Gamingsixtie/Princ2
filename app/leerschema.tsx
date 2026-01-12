@@ -15,31 +15,33 @@ interface StudyDay {
   aantalVragen: number; // How many practice questions to do
 }
 
+// Thema's in vragen.json: Business Case, Concepten, Kwaliteit, Mensen, Op Maat Maken, Organisatie, Plannen, Principes, Processen, Risico, Voortgang, Wijziging
+
 const leerschema: StudyDay[] = [
   // Week 1: Basis & Principes (12-18 jan)
   { dag: 1, datum: '12 jan', onderwerp: 'Introductie PRINCE2',
     details: ['Wat is PRINCE2?', 'Projectdefinitie', '6 prestatiedoelen', '4 geintegreerde elementen'],
-    themas: ['project', 'prestatie', 'element'], studiegidsectie: 'Kernconcepten', aantalVragen: 10 },
+    themas: ['Concepten'], studiegidsectie: 'Kernconcepten', aantalVragen: 10 },
 
   { dag: 2, datum: '13 jan', onderwerp: 'Principes 1-3',
     details: ['Voortdurende zakelijke rechtvaardiging', 'Leren van ervaring', 'Gedefinieerde rollen'],
-    themas: ['principe', 'zakelijke rechtvaardiging', 'leren', 'rollen'], studiegidsectie: 'Principes', aantalVragen: 15 },
+    themas: ['Principes'], studiegidsectie: 'Principes', aantalVragen: 15 },
 
   { dag: 3, datum: '14 jan', onderwerp: 'Principes 4-7',
     details: ['Managen per fase', 'Managen bij uitzondering', 'Productgerichte aanpak', 'Aanpassen'],
-    themas: ['principe', 'fase', 'uitzondering', 'product', 'aanpassen'], studiegidsectie: 'Principes', aantalVragen: 15 },
+    themas: ['Principes', 'Op Maat Maken'], studiegidsectie: 'Principes', aantalVragen: 15 },
 
   { dag: 4, datum: '15 jan', onderwerp: 'Mensen & Rollen',
     details: ['Stuurgroep', 'Opdrachtgever', 'Senior User/Supplier', 'Projectmanager', 'Teammanager'],
-    themas: ['rol', 'stuurgroep', 'opdrachtgever', 'projectmanager', 'teammanager', 'organisatie'], studiegidsectie: 'Mensen', aantalVragen: 15 },
+    themas: ['Mensen', 'Organisatie'], studiegidsectie: 'Mensen', aantalVragen: 15 },
 
   { dag: 5, datum: '16 jan', onderwerp: 'Herhaling Week 1',
     details: ['Alle principes', 'Alle rollen', 'Kernconcepten'],
-    themas: ['principe', 'rol', 'organisatie'], studiegidsectie: 'Principes', aantalVragen: 20 },
+    themas: ['Principes', 'Mensen', 'Organisatie'], studiegidsectie: 'Principes', aantalVragen: 20 },
 
   { dag: 6, datum: '17 jan', onderwerp: 'Oefenexamen deel 1',
     details: ['20 vragen in examentijd', 'Focus op principes en rollen'],
-    themas: ['principe', 'rol', 'organisatie'], studiegidsectie: 'Principes', aantalVragen: 20 },
+    themas: ['Principes', 'Organisatie', 'Mensen'], studiegidsectie: 'Principes', aantalVragen: 20 },
 
   { dag: 7, datum: '18 jan', onderwerp: 'Review & Rust',
     details: ['Bekijk foute antwoorden', 'Herlees moeilijke delen'],
@@ -48,60 +50,60 @@ const leerschema: StudyDay[] = [
   // Week 2: Practices (19-25 jan)
   { dag: 8, datum: '19 jan', onderwerp: 'Business Case',
     details: ['Doel: Waarom?', 'Outputs', 'Baten, nadelen, risicos', 'Continue rechtvaardiging'],
-    themas: ['business case', 'baten', 'rechtvaardiging'], studiegidsectie: 'Business Case', aantalVragen: 15 },
+    themas: ['Business Case'], studiegidsectie: 'Business Case', aantalVragen: 15 },
 
   { dag: 9, datum: '20 jan', onderwerp: 'Organiseren',
     details: ['3 niveaus', 'Stuurgroep samenstelling', 'Projectborging', 'Belanghebbenden'],
-    themas: ['organisatie', 'stuurgroep', 'borging', 'belanghebbenden'], studiegidsectie: 'Organiseren', aantalVragen: 15 },
+    themas: ['Organisatie', 'Mensen'], studiegidsectie: 'Organiseren', aantalVragen: 15 },
 
   { dag: 10, datum: '21 jan', onderwerp: 'Plannen',
     details: ['Planniveaus', 'Productdecompositiestructuur', 'Productbeschrijvingen'],
-    themas: ['plan', 'product', 'decompositie'], studiegidsectie: 'Plannen', aantalVragen: 15 },
+    themas: ['Plannen'], studiegidsectie: 'Plannen', aantalVragen: 15 },
 
   { dag: 11, datum: '22 jan', onderwerp: 'Kwaliteit',
     details: ['Kwaliteitsplanning', 'Kwaliteitsbeheersing', 'Kwaliteitsregister'],
-    themas: ['kwaliteit', 'register'], studiegidsectie: 'Kwaliteit', aantalVragen: 15 },
+    themas: ['Kwaliteit'], studiegidsectie: 'Kwaliteit', aantalVragen: 15 },
 
   { dag: 12, datum: '23 jan', onderwerp: 'Risico',
     details: ['Risicocategorien', 'Risicoprocedure', 'Risicoregister', 'Risicoreacties'],
-    themas: ['risico', 'register', 'reactie'], studiegidsectie: 'Risico', aantalVragen: 15 },
+    themas: ['Risico'], studiegidsectie: 'Risico', aantalVragen: 15 },
 
   { dag: 13, datum: '24 jan', onderwerp: 'Issues & Wijziging',
     details: ['Issuetypen', 'Wijzigingsverzoek', 'Afwijking', 'Configuratiebeheer'],
-    themas: ['issue', 'wijziging', 'configuratie', 'change'], studiegidsectie: 'Issues', aantalVragen: 15 },
+    themas: ['Wijziging'], studiegidsectie: 'Issues', aantalVragen: 15 },
 
   { dag: 14, datum: '25 jan', onderwerp: 'Voortgang',
     details: ['Toleranties', 'Rapportages', 'Checkpuntrapporten', 'Uitzonderingen'],
-    themas: ['voortgang', 'tolerantie', 'rapport', 'uitzondering'], studiegidsectie: 'Voortgang', aantalVragen: 15 },
+    themas: ['Voortgang'], studiegidsectie: 'Voortgang', aantalVragen: 15 },
 
   // Week 3: Processen (26 jan - 1 feb)
   { dag: 15, datum: '26 jan', onderwerp: 'Opstarten (SU)',
     details: ['Trigger: projectmandaat', 'Projectvoorstel', 'Dagelijks logboek'],
-    themas: ['opstarten', 'mandaat', 'voorstel', 'SU'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 16, datum: '27 jan', onderwerp: 'Initiatie (IP)',
     details: ['PID samenstellen', 'Strategieen opzetten', 'Projectplan maken'],
-    themas: ['initieren', 'initiatie', 'PID', 'IP'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 17, datum: '28 jan', onderwerp: 'Sturen (DP)',
     details: ['Beslissingen stuurgroep', 'Ad hoc sturing', 'Autoriseren'],
-    themas: ['sturen', 'stuurgroep', 'autoriseren', 'DP'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 18, datum: '29 jan', onderwerp: 'Beheersen fase (CS)',
     details: ['Werk autoriseren', 'Voortgang bewaken', 'Issues behandelen'],
-    themas: ['beheersen', 'fase', 'bewaken', 'CS'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 19, datum: '30 jan', onderwerp: 'Productoplevering (MP)',
     details: ['Werk accepteren', 'Werk uitvoeren', 'Werk opleveren'],
-    themas: ['productoplevering', 'opleveren', 'teammanager', 'MP'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 20, datum: '31 jan', onderwerp: 'Faseovergang (SB)',
     details: ['Volgende fase plannen', 'Projectplan bijwerken', 'Eindfaserapport'],
-    themas: ['faseovergang', 'fasegrens', 'SB'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   { dag: 21, datum: '1 feb', onderwerp: 'Afsluiten (CP)',
     details: ['Geplande afsluiting', 'Voortijdige afsluiting', 'Evalueren'],
-    themas: ['afsluiten', 'afsluiting', 'evalueren', 'CP'], studiegidsectie: 'Processen', aantalVragen: 15 },
+    themas: ['Processen'], studiegidsectie: 'Processen', aantalVragen: 15 },
 
   // Week 4: Examens (2-8 feb)
   { dag: 22, datum: '2 feb', onderwerp: 'Proefexamen 9',
@@ -114,7 +116,7 @@ const leerschema: StudyDay[] = [
 
   { dag: 24, datum: '4 feb', onderwerp: 'Zwakke punten',
     details: ['Focus op lastige onderwerpen', 'Herlees relevante secties'],
-    themas: [], studiegidsectie: 'Principes', aantalVragen: 20 },
+    themas: ['Principes', 'Processen'], studiegidsectie: 'Principes', aantalVragen: 20 },
 
   { dag: 25, datum: '5 feb', onderwerp: 'Proefexamen 10',
     details: ['60 vragen in 60 min', 'Nieuw examenniveau'],
@@ -122,11 +124,11 @@ const leerschema: StudyDay[] = [
 
   { dag: 26, datum: '6 feb', onderwerp: 'Laatste herhaling',
     details: ['7-7-7 structuur', 'Snelreferentie bekijken'],
-    themas: ['principe', 'practice', 'proces'], studiegidsectie: 'Snelreferentie', aantalVragen: 30 },
+    themas: ['Principes', 'Processen'], studiegidsectie: 'Snelreferentie', aantalVragen: 30 },
 
   { dag: 27, datum: '7 feb', onderwerp: 'Lichte review',
     details: ['Niet te veel leren', 'Ontspan', 'Vroeg slapen'],
-    themas: [], studiegidsectie: 'Kernconcepten', aantalVragen: 10 },
+    themas: ['Concepten'], studiegidsectie: 'Kernconcepten', aantalVragen: 10 },
 
   { dag: 28, datum: '8 feb', onderwerp: 'EXAMENDAG!',
     details: ['Goed ontbijten', 'Op tijd aanwezig', 'Rustig blijven'],
