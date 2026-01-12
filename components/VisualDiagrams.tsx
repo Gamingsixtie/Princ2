@@ -61,35 +61,63 @@ export function ProcesModelDiagram() {
 
       {/* Legend */}
       <View style={styles.legend}>
-        <Text style={styles.legendTitle}>Legende:</Text>
-        <View style={styles.legendRow}>
-          <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#3b82f6' }]} />
-            <Text style={styles.legendText}>SU = Opstarten</Text>
-          </View>
-          <View style={styles.legendItem}>
+        <Text style={styles.legendTitle}>LEGENDE - 7 PRINCE2 Processen:</Text>
+        <View style={styles.legendGrid}>
+          <View style={styles.legendCard}>
             <View style={[styles.legendDot, { backgroundColor: '#7c3aed' }]} />
-            <Text style={styles.legendText}>IP = Initiatie</Text>
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>DP</Text>
+              <Text style={styles.legendFull}>Directing a Project</Text>
+              <Text style={styles.legendDutch}>Sturen van een Project</Text>
+            </View>
           </View>
-        </View>
-        <View style={styles.legendRow}>
-          <View style={styles.legendItem}>
+          <View style={styles.legendCard}>
+            <View style={[styles.legendDot, { backgroundColor: '#3b82f6' }]} />
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>SU</Text>
+              <Text style={styles.legendFull}>Starting Up a Project</Text>
+              <Text style={styles.legendDutch}>Opstarten van een Project</Text>
+            </View>
+          </View>
+          <View style={styles.legendCard}>
+            <View style={[styles.legendDot, { backgroundColor: '#8b5cf6' }]} />
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>IP</Text>
+              <Text style={styles.legendFull}>Initiating a Project</Text>
+              <Text style={styles.legendDutch}>Initiëren van een Project</Text>
+            </View>
+          </View>
+          <View style={styles.legendCard}>
             <View style={[styles.legendDot, { backgroundColor: '#10b981' }]} />
-            <Text style={styles.legendText}>CS = Beheersen</Text>
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>CS</Text>
+              <Text style={styles.legendFull}>Controlling a Stage</Text>
+              <Text style={styles.legendDutch}>Beheersen van een Fase</Text>
+            </View>
           </View>
-          <View style={styles.legendItem}>
+          <View style={styles.legendCard}>
             <View style={[styles.legendDot, { backgroundColor: '#f59e0b' }]} />
-            <Text style={styles.legendText}>MP = Oplevering</Text>
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>MP</Text>
+              <Text style={styles.legendFull}>Managing Product Delivery</Text>
+              <Text style={styles.legendDutch}>Managen Productoplevering</Text>
+            </View>
           </View>
-        </View>
-        <View style={styles.legendRow}>
-          <View style={styles.legendItem}>
+          <View style={styles.legendCard}>
             <View style={[styles.legendDot, { backgroundColor: '#eab308' }]} />
-            <Text style={styles.legendText}>SB = Faseovergang</Text>
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>SB</Text>
+              <Text style={styles.legendFull}>Managing a Stage Boundary</Text>
+              <Text style={styles.legendDutch}>Managen Faseovergang</Text>
+            </View>
           </View>
-          <View style={styles.legendItem}>
+          <View style={styles.legendCard}>
             <View style={[styles.legendDot, { backgroundColor: '#ef4444' }]} />
-            <Text style={styles.legendText}>CP = Afsluiten</Text>
+            <View style={styles.legendTextContainer}>
+              <Text style={styles.legendCode}>CP</Text>
+              <Text style={styles.legendFull}>Closing a Project</Text>
+              <Text style={styles.legendDutch}>Afsluiten van een Project</Text>
+            </View>
           </View>
         </View>
       </View>
@@ -280,6 +308,15 @@ export function ManagementProductenDiagram() {
             <Text style={styles.reportName}>Project-eind</Text>
             <Text style={styles.reportFlow}>PM → SG</Text>
             <Text style={styles.reportWhen}>Einde project</Text>
+          </View>
+        </View>
+        {/* Report abbreviations legend */}
+        <View style={styles.abbrevLegend}>
+          <Text style={styles.abbrevTitle}>Afkortingen:</Text>
+          <View style={styles.abbrevRow}>
+            <Text style={styles.abbrevItem}>TM = Teammanager</Text>
+            <Text style={styles.abbrevItem}>PM = Projectmanager</Text>
+            <Text style={styles.abbrevItem}>SG = Stuurgroep</Text>
           </View>
         </View>
       </View>
@@ -543,34 +580,53 @@ const styles = StyleSheet.create({
   },
   legend: {
     marginTop: 24,
-    padding: 12,
+    padding: 16,
     backgroundColor: '#f9fafb',
-    borderRadius: 8,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#e5e7eb',
   },
   legendTitle: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: '#6b7280',
-    marginBottom: 8,
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#374151',
+    marginBottom: 12,
+    textAlign: 'center',
   },
-  legendRow: {
-    flexDirection: 'row',
-    marginBottom: 4,
+  legendGrid: {
+    gap: 8,
   },
-  legendItem: {
+  legendCard: {
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: 'white',
+    padding: 10,
+    borderRadius: 8,
+    marginBottom: 6,
+  },
+  legendTextContainer: {
     flex: 1,
+    marginLeft: 10,
   },
-  legendDot: {
-    width: 10,
-    height: 10,
-    borderRadius: 5,
-    marginRight: 6,
+  legendCode: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#111827',
   },
-  legendText: {
+  legendFull: {
     fontSize: 11,
     color: '#6b7280',
+    fontStyle: 'italic',
+  },
+  legendDutch: {
+    fontSize: 12,
+    color: '#374151',
+    fontWeight: '500',
+  },
+  legendDot: {
+    width: 14,
+    height: 14,
+    borderRadius: 7,
   },
 
   // Organization styles
@@ -752,6 +808,29 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: '#9ca3af',
     textAlign: 'right',
+  },
+  abbrevLegend: {
+    marginTop: 12,
+    padding: 10,
+    backgroundColor: '#f0fdf4',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#bbf7d0',
+  },
+  abbrevTitle: {
+    fontSize: 11,
+    fontWeight: 'bold',
+    color: '#166534',
+    marginBottom: 6,
+  },
+  abbrevRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 12,
+  },
+  abbrevItem: {
+    fontSize: 11,
+    color: '#15803d',
   },
 
   // Risk styles
