@@ -2,6 +2,14 @@ import { useState, useEffect } from 'react';
 import { View, Text, Pressable, ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
+import {
+  ProcesModelDiagram,
+  OrganisatieStructuurDiagram,
+  RollenMatrixDiagram,
+  ManagementProductenDiagram,
+  RisicoreactiesDiagram,
+  ProcesStroomDiagram,
+} from '../components/VisualDiagrams';
 
 type Sectie = {
   id: string;
@@ -13,6 +21,7 @@ type Sectie = {
 type SubSectie = {
   titel: string;
   inhoud: string;
+  visualComponent?: 'procesmodel' | 'organisatie' | 'rollen' | 'producten' | 'risico' | 'processtroom';
 };
 
 const studiegidsData: Sectie[] = [
@@ -23,174 +32,33 @@ const studiegidsData: Sectie[] = [
     inhoud: [
       {
         titel: 'PRINCE2 Procesmodel',
-        inhoud: `┌─────────────────────────────────────────┐
-│           STUREN (DP)                   │
-│    Stuurgroep - loopt door hele project │
-└──────────────────┬──────────────────────┘
-                   │
-    ┌──────────────┼──────────────┐
-    │              │              │
-    ▼              ▼              ▼
-┌───────┐    ┌──────────┐    ┌─────────┐
-│  SU   │───▶│    IP    │───▶│   CS    │
-│Opstart│    │ Initiatie│    │Beheersen│
-└───────┘    └──────────┘    └────┬────┘
-                                  │
-                    ┌─────────────┼─────────────┐
-                    │             │             │
-                    ▼             ▼             ▼
-               ┌────────┐   ┌────────┐    ┌────────┐
-               │   MP   │   │   SB   │    │   CP   │
-               │Product │   │Fase-   │    │Afsluiten│
-               │oplever │   │overgang│    └────────┘
-               └────────┘   └────────┘
-
-LEGENDE:
-SU = Opstarten    IP = Initiëren    DP = Sturen
-CS = Beheersen    MP = Productoplevering
-SB = Faseovergang CP = Afsluiten`
+        inhoud: 'Interactief diagram van alle 7 PRINCE2 processen en hun onderlinge relaties.',
+        visualComponent: 'procesmodel'
       },
       {
         titel: 'Organisatiestructuur',
-        inhoud: `┌─────────────────────────────────────────┐
-│        BEDRIJFS-/PROGRAMMANIVEAU        │
-│         (Projectmandaat komt hier)       │
-└──────────────────┬──────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────┐
-│            STUURGROEP (DP)              │
-├─────────────┬───────────┬───────────────┤
-│ Opdracht-   │  Senior   │    Senior     │
-│ gever       │  User(s)  │  Supplier(s)  │
-│ (Business)  │(Gebruiker)│ (Leverancier) │
-└──────┬──────┴─────┬─────┴───────┬───────┘
-       │            │             │
-       │     Projectborging       │
-       │                          │
-       └──────────┬───────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────────┐
-│         PROJECTMANAGER (CS)             │
-│    + Projectondersteuning (optioneel)   │
-└──────────────────┬──────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────┐
-│         TEAMMANAGER(S) (MP)             │
-│           + Teamleden                    │
-└─────────────────────────────────────────┘`
+        inhoud: 'Visueel overzicht van de 4 organisatielagen en hun hiërarchie.',
+        visualComponent: 'organisatie'
       },
       {
-        titel: 'Rollen Verantwoordelijkheden Matrix',
-        inhoud: `ROL                  │ VERANTWOORDELIJK VOOR
-─────────────────────┼──────────────────────────────
-Opdrachtgever        │ • Eindverantwoordelijk project
-                     │ • Eigenaar Business Case
-                     │ • Voorzitter Stuurgroep
-─────────────────────┼──────────────────────────────
-Senior User          │ • Gebruikersbelangen
-                     │ • Benefits realisatie
-                     │ • Gebruikersacceptatie
-─────────────────────┼──────────────────────────────
-Senior Supplier      │ • Leveranciersbelangen
-                     │ • Technische integriteit
-                     │ • Resources beschikbaar
-─────────────────────┼──────────────────────────────
-Projectmanager       │ • Dagelijks management
-                     │ • Plannen & rapporteren
-                     │ • Risico's & issues beheren
-─────────────────────┼──────────────────────────────
-Teammanager          │ • Producten opleveren
-                     │ • Team aansturen
-                     │ • Checkpointrapporten
-─────────────────────┼──────────────────────────────
-Projectborging       │ • Onafhankelijke controle
-                     │ • Namens Stuurgroep
-                     │ • NIET onafhankelijk v. project`
+        titel: 'Rollen & Verantwoordelijkheden',
+        inhoud: 'Matrix met alle rollen en hun belangrijkste taken.',
+        visualComponent: 'rollen'
       },
       {
-        titel: 'Managementproducten Overzicht',
-        inhoud: `BASELINE PRODUCTEN (onder wijzigingsbeheer):
-┌────────────────────┬──────────────────────────┐
-│ Product            │ Gemaakt in proces        │
-├────────────────────┼──────────────────────────┤
-│ Business Case      │ SU (outline) → IP (vol)  │
-│ Projectplan        │ IP                       │
-│ Faseplan           │ IP + SB                  │
-│ Afwijkingsplan     │ CS/SB (indien nodig)     │
-│ Productbeschrijving│ Per product              │
-└────────────────────┴──────────────────────────┘
-
-REGISTERS (doorlopend bijgehouden):
-┌────────────────────┬──────────────────────────┐
-│ Risicoregister     │ Alle risico's + reacties │
-│ Issueregister      │ Alle issues + status     │
-│ Kwaliteitsregister │ Alle kwaliteitscheck     │
-│ Config-itemrecord  │ Versies producten        │
-└────────────────────┴──────────────────────────┘
-
-RAPPORTEN:
-┌────────────────────┬───────────┬─────────────┐
-│ Rapport            │ Van → Aan │ Wanneer     │
-├────────────────────┼───────────┼─────────────┤
-│ Checkpoint         │ TM → PM   │ Periodiek   │
-│ Hoofdpunten        │ PM → SG   │ Periodiek   │
-│ Afwijking          │ PM → SG   │ Bij issue   │
-│ Fase-eind          │ PM → SG   │ Einde fase  │
-│ Project-eind       │ PM → SG   │ Einde proj  │
-└────────────────────┴───────────┴─────────────┘`
+        titel: 'Managementproducten',
+        inhoud: 'Overzicht van baselines, registers en rapporten.',
+        visualComponent: 'producten'
       },
       {
-        titel: 'Risicoreacties Overzicht',
-        inhoud: `REACTIES OP BEDREIGINGEN (negatief):
-┌───────────────┬────────────────────────────────┐
-│ Reactie       │ Beschrijving                   │
-├───────────────┼────────────────────────────────┤
-│ VERMIJDEN     │ Elimineer de bedreiging        │
-│ VERMINDEREN   │ Verklein kans of impact        │
-│ OVERDRAGEN    │ Geef aan derde partij          │
-│ DELEN         │ Verdeel met partner            │
-│ ACCEPTEREN    │ Doe niets, neem risico         │
-│ VOORBEREIDEN  │ Plan B (contingency)           │
-└───────────────┴────────────────────────────────┘
-
-REACTIES OP KANSEN (positief):
-┌───────────────┬────────────────────────────────┐
-│ Reactie       │ Beschrijving                   │
-├───────────────┼────────────────────────────────┤
-│ EXPLOITEREN   │ Benut kans volledig            │
-│ VERGROTEN     │ Vergroot waarschijnlijkheid    │
-│ DELEN         │ Deel met partner               │
-│ AFWIJZEN      │ Doe niets met kans             │
-└───────────────┴────────────────────────────────┘`
+        titel: 'Risicoreacties',
+        inhoud: 'Alle reacties op bedreigingen en kansen visueel weergegeven.',
+        visualComponent: 'risico'
       },
       {
         titel: 'Processtroom per Fase',
-        inhoud: `PRE-PROJECT:
-  Projectmandaat → [SU Opstarten] → Projectvoorstel
-
-INITIATIEFASE:
-  Projectvoorstel → [IP Initiëren] → PID
-                    [DP Autoriseren project]
-
-LEVERINGSFASE(S):
-  ┌──────────────────────────────────────────┐
-  │ [CS Beheersen] ←→ [MP Productoplevering] │
-  │      ↓                                    │
-  │ Werkpakketten → Producten                │
-  │      ↓                                    │
-  │ Hoofdpuntenrapport → Stuurgroep          │
-  └──────────────────────────────────────────┘
-
-  Einde fase: [SB Faseovergang]
-              ↓
-              [DP Autoriseren volgende fase]
-
-LAATSTE FASE:
-  [CP Afsluiten] → Projecteindrapport
-                   [DP Autoriseren afsluiting]`
+        inhoud: 'Tijdlijn van input → proces → output per projectfase.',
+        visualComponent: 'processtroom'
       }
     ]
   },
@@ -1669,7 +1537,21 @@ export default function StudiegidsScreen() {
                     </Text>
                   </View>
                   {expandedItem === index && (
-                    <Text style={styles.itemInhoud}>{item.inhoud}</Text>
+                    <View style={styles.expandedContent}>
+                      {item.visualComponent ? (
+                        <View style={styles.visualContainer}>
+                          <Text style={styles.visualDescription}>{item.inhoud}</Text>
+                          {item.visualComponent === 'procesmodel' && <ProcesModelDiagram />}
+                          {item.visualComponent === 'organisatie' && <OrganisatieStructuurDiagram />}
+                          {item.visualComponent === 'rollen' && <RollenMatrixDiagram />}
+                          {item.visualComponent === 'producten' && <ManagementProductenDiagram />}
+                          {item.visualComponent === 'risico' && <RisicoreactiesDiagram />}
+                          {item.visualComponent === 'processtroom' && <ProcesStroomDiagram />}
+                        </View>
+                      ) : (
+                        <Text style={styles.itemInhoud}>{item.inhoud}</Text>
+                      )}
+                    </View>
                   )}
                 </Pressable>
               ))}
@@ -1834,6 +1716,25 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     borderTopWidth: 1,
     borderTopColor: '#f3f4f6',
+  },
+  expandedContent: {
+    marginTop: 12,
+    paddingTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: '#f3f4f6',
+  },
+  visualContainer: {
+    backgroundColor: '#f9fafb',
+    borderRadius: 12,
+    padding: 8,
+    marginTop: 8,
+  },
+  visualDescription: {
+    fontSize: 13,
+    color: '#6b7280',
+    marginBottom: 12,
+    textAlign: 'center',
+    fontStyle: 'italic',
   },
   tipCard: {
     flexDirection: 'row',
