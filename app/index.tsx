@@ -55,6 +55,10 @@ export default function HomeScreen() {
     router.push('/studiegids');
   };
 
+  const handleLeerschema = () => {
+    router.push('/leerschema');
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
@@ -108,6 +112,16 @@ export default function HomeScreen() {
               <View style={styles.actionTextContainer}>
                 <Text style={styles.actionTitle}>Studiegids</Text>
                 <Text style={styles.actionSubtitle}>Complete PRINCE2 theorie</Text>
+              </View>
+            </Pressable>
+            <Pressable
+              style={({ pressed }) => [styles.actionCard, styles.actionCardLeerschema, pressed && styles.actionCardPressed]}
+              onPress={handleLeerschema}
+            >
+              <Text style={styles.actionIcon}>📅</Text>
+              <View style={styles.actionTextContainer}>
+                <Text style={styles.actionTitle}>Leerschema</Text>
+                <Text style={styles.actionSubtitle}>27 dagen tot 8 feb</Text>
               </View>
             </Pressable>
           </View>
@@ -319,6 +333,9 @@ const styles = StyleSheet.create({
   },
   actionCardStudiegids: {
     backgroundColor: '#7c3aed',
+  },
+  actionCardLeerschema: {
+    backgroundColor: '#f97316',
   },
   actionCardPressed: {
     opacity: 0.9,
