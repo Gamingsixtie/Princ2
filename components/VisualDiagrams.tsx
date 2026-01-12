@@ -230,6 +230,7 @@ export function ManagementProductenDiagram() {
           <ProductCard name="Business Case" process="SU → IP" icon="💼" />
           <ProductCard name="Projectplan" process="IP" icon="📅" />
           <ProductCard name="Faseplan" process="IP + SB" icon="📆" />
+          <ProductCard name="Afwijkingsplan" process="CS/SB" icon="⚡" />
           <ProductCard name="Productbeschrijving" process="Per product" icon="📝" />
         </View>
       </View>
@@ -274,6 +275,11 @@ export function ManagementProductenDiagram() {
             <Text style={styles.reportName}>Fase-eind</Text>
             <Text style={styles.reportFlow}>PM → SG</Text>
             <Text style={styles.reportWhen}>Einde fase</Text>
+          </View>
+          <View style={[styles.reportRow, { borderBottomWidth: 0 }]}>
+            <Text style={styles.reportName}>Project-eind</Text>
+            <Text style={styles.reportFlow}>PM → SG</Text>
+            <Text style={styles.reportWhen}>Einde project</Text>
           </View>
         </View>
       </View>
