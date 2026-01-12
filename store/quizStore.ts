@@ -21,13 +21,20 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   timerActief: false,
   gekozenExamen: null,
 
-  startQuiz: (examen: ExamenType) => {
+  startQuiz: (examen: ExamenType, themaFilter?: string[]) => {
     const alleVragen = vragenData.vragen as Vraag[];
 
     // Filter questions based on selected exam
-    const gefiltrerdeVragen = examen === 'alle'
+    let gefiltrerdeVragen = examen === 'alle'
       ? alleVragen
       : alleVragen.filter(v => v.bron === examen);
+
+    // Additional filter by theme if provided
+    if (themaFilter && themaFilter.length > 0) {
+      gefiltrerdeVragen = gefiltrerdeVragen.filter(v =>
+        themaFilter.some(t => v.thema.toLowerCase().includes(t.toLowerCase()))
+      );
+    }
 
     // Official exams (proefexamen7 and proefexamen8) are NOT shuffled
     // They stay in the exact original order

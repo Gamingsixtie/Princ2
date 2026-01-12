@@ -35,7 +35,7 @@ export interface QuizState {
   gekozenExamen: ExamenType | null;
 
   // Actions
-  startQuiz: (examen: ExamenType) => void;
+  startQuiz: (examen: ExamenType, themaFilter?: string[]) => void;
   beantwoordVraag: (antwoord: 'A' | 'B' | 'C' | 'D') => void;
   volgendeVraag: () => void;
   vorigeVraag: () => void;
